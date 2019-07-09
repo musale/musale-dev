@@ -1,0 +1,48 @@
+baseURL = "https://musale.github.io"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Martin Musale"
+
+theme = "hermit"
+enableEmoji = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  themeColor = "#494f5c"
+  homeSubtitle = "Software engineer."
+  footerCopyright = "<i>I know what you <code>git stashed</code> last summer</i> :wink:"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/"
+
+[menu]
+
+  [[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 20
+
+
+  [[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 30

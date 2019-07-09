@@ -1,0 +1,7 @@
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+  <p>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>
+    {{ .Site.Params.footerCopyright | safeHTML | emojify }}
+  </p>
+  <p>&copy; {{ now.Format "2006" }}</p>
+</footer>
