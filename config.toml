@@ -2,6 +2,7 @@ baseURL = "https://musale.github.io"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Martin Musale"
+publishDir = "world"
 
 theme = "hermit"
 enableEmoji = true
