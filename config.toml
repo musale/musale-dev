@@ -10,31 +10,31 @@ pygmentsStyle = "native"
 	name = "Home"
 	url  = "/"
 	weight = 10
-    title = "Welcome!"
+  title = "Welcome!"
 
 [[menu.main]]
 	name = "Resume/CV"
 	url  = "/CV"
 	weight = 20
-    title = "Check my work!"
+  title = "Check my work!"
 
 [[menu.main]]
 	name = "Projects"
 	url  = "/projects"
 	weight = 30
-    title = "At work!"
+  title = "At work!"
 
 [[menu.main]]
 	name = "Blog Posts"
 	url  = "/posts"
 	weight = 50
-    title = "Posted!"
+  title = "Posted!"
 
 [[menu.main]]
 	name = "Contact"
 	url  = "/contacts"
 	weight = 60
-    title = "Welcome!"
+  title = "Welcome!"
 
 [params]
 	name = "Martin Musale"
