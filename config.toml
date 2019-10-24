@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://friendly-hugle-a4f8f2.netlify.com/"
 languageCode = "en-us"
 title = "Musale Martin"
 theme = "hoyt"
