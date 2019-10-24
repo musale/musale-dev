@@ -2,9 +2,6 @@
 	path = public
 	url = https://github.com/musale/musale.github.io.git
 	branch = master
-[submodule "themes/simplicty"]
-	path = themes/simplicty
-	url = https://github.com/eshlox/simplicity.git
 [submodule "themes/strata"]
 	path = themes/strata
 	url = https://github.com/digitalcraftsman/hugo-strata-theme.git
