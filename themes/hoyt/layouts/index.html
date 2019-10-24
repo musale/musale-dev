@@ -1,0 +1,19 @@
+{{ define "main" }}
+    {{ if .Site.Params.avatar }}
+        <img class="right" src="{{ .Site.Params.avatar }}" alt="{{ .Site.Params.avatarAlt }}"
+        title="{{ .Site.Params.avatarTitle }}" />
+    {{ end }}
+
+    <h1>
+        <a href="/">{{ .Site.Params.tagLine | safeHTML}}</a>
+    </h1>
+
+    {{ .Site.Params.description | safeHTML}}
+
+    {{ if .Site.Params.subheading }}
+        {{ range .Site.Params.subheading }}
+            <h2>{{ .title | safeHTML }}</h2>
+            {{ .description | safeHTML }}
+        {{ end }}
+    {{ end }}
+{{ end }}

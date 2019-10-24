@@ -8,4 +8,4 @@ dev:
 
 .PHONY: build
 build:
-	@hugo -t hermit
+	@hugo -t hoyt

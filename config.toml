@@ -1,49 +1,71 @@
-baseURL = "https://friendly-hugle-a4f8f2.netlify.com/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
-title = "Martin Musale"
-publishDir = "world"
+title = "Musale Martin"
+theme = "hoyt"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "native"
 
-theme = "hermit"
-enableEmoji = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 10
+    title = "Welcome!"
+
+[[menu.main]]
+	name = "Resume/CV"
+	url  = "/CV"
+	weight = 20
+    title = "Check my work!"
+
+[[menu.main]]
+	name = "Projects"
+	url  = "/projects"
+	weight = 30
+    title = "At work!"
+
+[[menu.main]]
+	name = "Blog Posts"
+	url  = "/posts"
+	weight = 50
+    title = "Posted!"
+
+[[menu.main]]
+	name = "Contact"
+	url  = "/contacts"
+	weight = 60
+    title = "Welcome!"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-  themeColor = "#494f5c"
-  homeSubtitle = "Software engineer."
-  footerCopyright = "<i>I know what you <code>git stashed</code> last summer</i> :wink:"
+	name = "Martin Musale"
+	tagLine = "2 birds, 1 stone"
+    description = "I'm married to the only Franci Hoyt in the world, and we and our three lovely daughters live in the New York City metro area. Check out our blog <a href='https://aliensintheapple.com/'>Aliens in the Apple</a> or read some of the <a href='/writings/'>things I've written</a>."
 
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
+    avatar = "images/avatar.jpg"
+    avatarAlt = "Musale on image"
+    avatarTitle = "Title of the image"
 
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    [[params.subheading]]
+    title = "Other web sites I run"
+    description = """<ul>
+          <li>
+            <a href="https://giftyweddings.com/">Gifty Weddings</a> helps
+            couples make great wedding gift registries.
+          </li>
+          <li>
+            <a href="https://aliensintheapple.com/">Aliens in the Apple</a> is
+            our family blog, started during our time in NYC.
+          </li>
+          <li>
+            <a href="/prism-magazine/">Prism magazine</a> was a small-scale
+            print magazine I edited.
+          </li>
+        </ul>"""
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/"
-
-[menu]
-
-  [[menu.main]]
-    name = "Projects"
-    url = "projects/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 20
-
-
-  [[menu.main]]
-    name = "About"
-    url = "about"
-    weight = 30
+    [[params.subheading]]
+    title = "Projects I've authored"
+    description = """<p>
+          I&rsquo;ve authored or co-developed a few small open source software
+          projects. They now live on their own
+          <a href="/projects/">projects page</a>.
+        </p>"""
