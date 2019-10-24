@@ -5,15 +5,15 @@
     {{ end }}
 
     <h1>
-        <a href="/">{{ .Site.Params.tagLine | safeHTML}}</a>
+        <a href="/">{{ .Site.Params.tagLine | safeHTML | markdownify}}</a>
     </h1>
 
-    {{ .Site.Params.description | safeHTML}}
+    {{ .Site.Params.description | safeHTML | markdownify}}
 
     {{ if .Site.Params.subheading }}
         {{ range .Site.Params.subheading }}
-            <h2>{{ .title | safeHTML }}</h2>
-            {{ .description | safeHTML }}
+            <h2>{{ .title | safeHTML | markdownify}}</h2>
+            {{ .description | safeHTML | markdownify}}
         {{ end }}
     {{ end }}
 {{ end }}

@@ -39,33 +39,22 @@ pygmentsStyle = "native"
 [params]
 	name = "Martin Musale"
 	tagLine = "2 birds, 1 stone"
-    description = "I'm married to the only Franci Hoyt in the world, and we and our three lovely daughters live in the New York City metro area. Check out our blog <a href='https://aliensintheapple.com/'>Aliens in the Apple</a> or read some of the <a href='/writings/'>things I've written</a>."
+    description = """I’m Musale Martin, a learner and Software Developer from Kenya and based in Nairobi.
+
+I graduated with BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem solving.
+
+I’m currently with the Automation and Data Pipelining team at [Libryo](https://libryo.com). We’re making Law easily accesible, readable and updated.
+
+Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth), [Focus Mobile](https://smsleopard.com) where I helped to make sending bulk SMSs faster and more efficient.
+
+When not doing server configurations, I write, travel, read, and imagine myself exercise.
+
+Currently, I'm into interpreters, compilers and how computers work."""
 
     avatar = "images/avatar.jpg"
-    avatarAlt = "Musale on image"
-    avatarTitle = "Title of the image"
-
-    [[params.subheading]]
-    title = "Other web sites I run"
-    description = """<ul>
-          <li>
-            <a href="https://giftyweddings.com/">Gifty Weddings</a> helps
-            couples make great wedding gift registries.
-          </li>
-          <li>
-            <a href="https://aliensintheapple.com/">Aliens in the Apple</a> is
-            our family blog, started during our time in NYC.
-          </li>
-          <li>
-            <a href="/prism-magazine/">Prism magazine</a> was a small-scale
-            print magazine I edited.
-          </li>
-        </ul>"""
+    avatarAlt = "Rihanna"
+    avatarTitle = "I love Rihanna"
 
     [[params.subheading]]
     title = "Projects I've authored"
-    description = """<p>
-          I&rsquo;ve authored or co-developed a few small open source software
-          projects. They now live on their own
-          <a href="/projects/">projects page</a>.
-        </p>"""
+    description = """I've authored or co-developed a few small open source software projects. They now live on their own <a href="/projects/">projects page</a>."""
