@@ -39,15 +39,15 @@ pygmentsStyle = "native"
 [params]
 	name = "Martin Musale"
 	tagLine = "2 birds, 1 stone"
-    description = """I’m Musale Martin, a learner and Software Developer from Kenya and based in Nairobi.
+    description = """I’m Musale Martin, a learner and Software Developer from Kenya, based in Nairobi.
 
-I graduated with BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem solving.
+I graduated with a BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem solving.
 
-I’m currently with the Automation and Data Pipelining team at [Libryo](https://libryo.com). We’re making Law easily accesible, readable and updated.
+I’m currently with the Automation and Data Pipelining team at [Libryo](https://libryo.com). We’re making Law easily accesible, readable and always updated on our platform.
 
 Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth), [Focus Mobile](https://smsleopard.com) where I helped to make sending bulk SMSs faster and more efficient.
 
-When not doing server configurations, I write, travel, read, and imagine myself exercise.
+When not doing server configurations, I listen to music ~~and you can tell I love Rihanna~~, I write, travel, read, and imagine myself exercise.
 
 Currently, I'm into interpreters, compilers and how computers work."""
 
