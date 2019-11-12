@@ -2,7 +2,7 @@
 title: How to Find Me
 ---
 
-You can reach me on bird mail :bowtie: :satisfied: .
+You can reach me on bird mail. :satisfied:
 
 Seriously though, shoot me an email at [martinmshale@gmail.com](mailto:martinmshale@gmail.com). Alternatively, you can find me online on these sites:
 

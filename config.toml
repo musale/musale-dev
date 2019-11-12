@@ -5,6 +5,8 @@ theme = "hoyt"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "native"
+enableEmoji = true
+latexDashes = true
 
 [[menu.main]]
 	name = "Home"
