@@ -3,7 +3,7 @@ title: aiompesa
 slug: aiompesa
 tags: [mpesa, asyncio, python]
 date: 2019-07-22
-summary: MPESA is a service that allows you to make money transactions using your mobile phone. [Asyncio](https://docs.python.org/3/library/asyncio.html) is a library that allows you to write concurrent code in Python using `async/await` pattern. [AIOMPESA](https://aiompesa.readthedocs.io) is a Python library that allows you to interact with Python's _asyncio_ library.
+summary: "[aiompesa](aiompesa/) is a Python library that I wrote which allows you to interact with Python's _asyncio_ library. MPESA is a service that allows you to make money transactions using your mobile phone. [Asyncio](https://docs.python.org/3/library/asyncio.html) is a library that allows you to write concurrent code in Python using `async/await` pattern."
 ---
 
 ## Motivation

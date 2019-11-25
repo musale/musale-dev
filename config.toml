@@ -12,31 +12,36 @@ latexDashes = true
 	name = "Home"
 	url  = "/"
 	weight = 10
-  title = "Welcome!"
 
 [[menu.main]]
-	name = "Resume/CV"
-	url  = "/CV"
+	name = "CV"
+	url  = "/cv"
 	weight = 20
-  title = "Check my work!"
 
 [[menu.main]]
 	name = "Projects"
 	url  = "/projects"
 	weight = 30
-  title = "At work!"
 
 [[menu.main]]
-	name = "Blog Posts"
+	name = "Writing"
 	url  = "/posts"
 	weight = 50
-  title = "Posted!"
+
+[[menu.main]]
+	name = "Bucket List"
+	url  = "/my-list"
+	weight = 60
+
+[[menu.main]]
+	name = "Wishlist"
+	url  = "/wishlist"
+	weight = 70
 
 [[menu.main]]
 	name = "Contact"
 	url  = "/contacts"
-	weight = 60
-  title = "Welcome!"
+	weight = 80
 
 [params]
 	name = "Martin Musale"
@@ -47,11 +52,11 @@ I graduated with a BS in Mathematics & Computer Science from [Jomo Kenyatta Univ
 
 I’m currently with the Automation and Data Pipelining team at [Libryo](https://libryo.com). We’re making Law easily accesible, readable and always updated on our platform.
 
-Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth), [Focus Mobile](https://smsleopard.com) where I helped to make sending bulk SMSs faster and more efficient.
+Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth) and [Focus Mobile](https://smsleopard.com) where I helped to make sending bulk SMSs faster and more efficient.
 
-When not doing server configurations, I listen to music ~~and you can tell I love Rihanna~~, I write, travel, read, and imagine myself exercise.
+When I'm not doing server configurations, I listen to music ~~and you can tell I love Rihanna~~, I write, travel, read, and imagine myself exercise.
 
-Currently, I'm into interpreters, compilers and how computers work."""
+Currently, I'm into interpreters, compilers and how programming languages work."""
 
     avatar = "images/avatar.jpg"
     avatarAlt = "Rihanna"

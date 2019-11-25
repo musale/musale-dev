@@ -1,5 +1,5 @@
 ---
-title: Martin Musale's Resume/CV
+title: "Martin Musale's Resume/CV"
 draft: false
 tags:
   - Software Engineer
@@ -11,11 +11,11 @@ tags:
 
 ## Summary
 
-I’m a software engineer with over five years of experience developing web applications, as well as providing technical management for small teams of software developers.
+I’m a software engineer with over 5 years of experience developing web applications, as well as providing technical management for small teams of software developers.
 
 I’m fluent in Python, JavaScript, HTML, English and Swahili. I’ve also written a good amount of Golang, CSS, Shell Scripting, C++, XSLT and Java. I learn quickly, care about detail, and love computer science and mathematics.
 
-## Skills: What I Do...
+## Skills: This is What I Do...
 
 ### Software development
 
@@ -29,7 +29,7 @@ I’m fluent in Python, JavaScript, HTML, English and Swahili. I’ve also writt
 - RESTful API development and consumption.
 - Teamwork and collaboration using business tools like slack and gitter, planning and organizational skills.
 - Thorough troubleshooting and analysis skills.
-- Contribute to open source projects, for example Python ([more here](https://github.com/musale)).
+- Contribute to open source projects ([more here](https://github.com/musale)).
 
 ### Management and leadership
 

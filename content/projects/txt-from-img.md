@@ -3,7 +3,7 @@ title: txt-from-img
 slug: txt-from-img
 tags: [mpesa, asyncio, python]
 date: 2019-08-15
-summary: Get text from an image using tessaract in a lambda function.
+summary: "[txt-from-img](txt-from-img/) was a gentle introduction to the tessaract library and how to get text from an image in a lambda function."
 ---
 
 ## Motivation
