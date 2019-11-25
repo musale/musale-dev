@@ -6,7 +6,6 @@ tags:
   - HTTP/3
   - Networking
 date: 2019-11-26
-lastmod: 2019-11-26
 ---
 
 ## Introduction
