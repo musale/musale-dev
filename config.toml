@@ -45,7 +45,7 @@ latexDashes = true
 
 [params]
 	name = "Martin Musale"
-	tagLine = "2 birds, 1 stone"
+	tagLine = "2 bits, 1–oh"
     description = """I’m Musale Martin – a learner, problem-solver and software engineer from Kenya, based in Nairobi.
 
 I graduated with a BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem solving.
@@ -54,7 +54,7 @@ I’m currently with the Automation and Data Pipelining team at [Libryo](https:/
 
 Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth) and [Focus Mobile](https://smsleopard.com) where I helped to make sending bulk SMSs faster and more efficient.
 
-When I'm not doing server configurations, I listen to music ~~and you can tell I love Rihanna :wink:~~, I write, travel, read, and I imagine myself exercise.
+When I'm not doing server configurations, I listen to music ~~and you can tell I love Rihanna~~ 😉, I [write](/posts), travel, [read](https://www.goodreads.com/user/show/13682301-mr-musale), and I imagine myself exercise.
 
 Currently, I'm into interpreters, compilers and how programming languages work."""
 
