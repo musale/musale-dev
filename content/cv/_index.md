@@ -3,6 +3,7 @@ title: "Martin Musale's Resume/CV"
 draft: false
 tags:
   - Software Engineer
+  - Software Development
   - Python
   - Go
   - JavaScript
@@ -11,7 +12,7 @@ tags:
 
 ## Summary
 
-I’m a software engineer with over 5 years of experience developing web applications, as well as providing technical management for small teams of software developers.
+I’m a software developer with over 5 years of experience developing web applications, as well as providing technical management for small teams of software developers.
 
 I’m fluent in Python, JavaScript, HTML, English and Swahili. I’ve also written a good amount of Golang, CSS, Shell Scripting, C++, XSLT and Java. I learn quickly, care about detail, and love computer science and mathematics.
 
