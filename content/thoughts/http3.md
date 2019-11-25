@@ -1,16 +1,16 @@
 ---
 title: "HTTP/3 and it's underlying protocol QUIC"
+date: 2019-11-26 02:49:41 AM
+draft: false
 authors:
   - Martin Musale
 tags:
   - HTTP/3
   - Networking
-date: 2019-11-26
+summary: "[HTTP/3 and it's underlying protocol QUIC](/thoughts/http3/) talks about the new HTTP/3 layer and the underlying protocol QUIC. It's from the very nice read by Daniel Haxx called [HTTP/3 Explained](https://daniel.haxx.se/http3-explained) – which you should read as it details the processes, how it works and what the future holds for HTPP/3 and QUIC."
 ---
 
 ## Introduction
-
-<p class="right-callout">**_TLDR:_** Most of this is borrowed from [_HTTP/3 Explained_](https://daniel.haxx.se/http3-explained) by Daniel Haxx</p>
 
 > QUIC is a name, not an acronym. [^1]
 
