@@ -40,9 +40,9 @@ The initial QUIC protocol was designed by Jim Roskind at Google and was initiall
 - The transport security used in QUIC is using TLS 1.3 [(RFC 8446)](https://tools.ietf.org/html/rfc8446) and there are never any unencrypted QUIC connections.
 - The IETF QUIC protocol is a transport protocol, on top of which other application protocols can be used. The initial application layer protocol is HTTP/3 (h3). I can't wait to see what else can be done here.
 
-## HTTP/3 [^3]
+## HTTP/3
 
-HTTP is the first and primary protocol to transport over QUIC. It still maintains the same paradigms and concepts like before. In order to do HTTP over QUIC, changes were required and the results of this is what we now call HTTP/3. These changes include:
+[^3]HTTP is the first and primary protocol to transport over QUIC. It still maintains the same paradigms and concepts like before. In order to do HTTP over QUIC, changes were required and the results of this is what we now call HTTP/3. These changes include:
 
 - In QUIC the streams are provided by the transport itself, while in HTTP/2 the streams were done within the HTTP layer.
 
@@ -53,9 +53,9 @@ HTTP is the first and primary protocol to transport over QUIC. It still maintain
   - DATA, sends binary data contents
   - GOAWAY, please shutdown this connection [^4]
 
-## HTTP/3 compared to HTTP/2 [^5]
+## HTTP/3 compared to HTTP/2
 
-HTTP/3 is designed for QUIC, which is a transport protocol that handles streams by itself.
+[^5]HTTP/3 is designed for QUIC, which is a transport protocol that handles streams by itself.
 
 HTTP/2 is designed for TCP, and therefore handles streams in the HTTP layer.
 
