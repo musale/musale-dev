@@ -24,6 +24,7 @@ On here, the options range from gadgets, hardware and software. Also, in no part
 
 - [MacBook Pro 2019 16-inch](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch). I kinda just like it.
 - [reMarkable tablet](https://remarkable.com). It's the paper tablet. Perfect for writing and reading. You can actually write [scripts](https://github.com/jessfraz/morningpaper2remarkable) to sync content into it! How :cool:!
+- [Dell 43 Ultra HD 4K Multi Client Monitor.](https://www.dell.com/en-us/work/shop/dell-43-ultra-hd-4k-multi-client-monitor-p4317q/apd/210-ahsq/monitors-monitor-accessories) Now this is productivity unchained.
 
 ## Miscellaneous
 
