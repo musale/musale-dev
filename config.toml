@@ -7,6 +7,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "native"
 enableEmoji = true
 latexDashes = true
+googleAnalytics = "UA-154147297-1"
 
 [[menu.main]]
 	name = "Home"

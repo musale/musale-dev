@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/musale/musale.github.io.git
 	branch = master
+[submodule "themes/hoyt"]
+	path = themes/hoyt
+	url = https://github.com/musale/hoyt.git
