@@ -45,7 +45,11 @@ I would like to be able to do the following things before I die:
 - [ ] Go to the South Pole or North Pole.
 - [ ] Climb The Great Pyramid of Giza, Egypt.
 - [ ] Climb The Great wall of China.
-- [ ] Watch a soccer game at Old Trafford.
+- [ ] Watch a football game at Old Trafford.
 - [ ] Visit Googleplex.
 - [ ] Go to a circus (Like the one in Madagascar)
 - [ ] Eat Moussaka in Athens.
+- [ ] Visit Turin.
+- [ ] Visit _The Leaning Tower of Pisa_.
+- [ ] Visit Stonehenge and River Thames.
+- [ ] Visit The Victoria Falls in Zimbabwe.
