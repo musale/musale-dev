@@ -11,4 +11,5 @@ build:
 	@hugo -t hoyt
 
 .PHONY: update_subs
+update_subs:
 	@git submodule update --rebase --remote
