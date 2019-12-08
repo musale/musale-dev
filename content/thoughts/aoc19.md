@@ -18,6 +18,23 @@ summary: "[The Advent of Code 2019](/thoughts/aoc19/) has my thoughts about the 
 
 I always like solving problems and this is a very nice place to practise my skills. This year, I would like to learn more concepts and I'm already liking this _AOC_. First, I'm liking the way [Jonathan Paulson's](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA/videos) videos. Precise and really nice to see. I also like [Liz Fong-Jones'](https://www.twitch.tv/lizthegrey) _Go_ solutions. My solutions are over [here](https://github.com/musale/advent-of-code-2019).
 
+## Day 8
+
+Decoding the image data was pretty easy. It involved array manipulation so from a higher level you can see the kind of problem that you have and the way the ideal solution needs to look like. For my case, I knew that I need a way to keep layers, which I did using a `dict`. To find the layer with the most common `zeros`, I used Python's `collections.Counter` to find the count of value 0 and set the lowest value for each layer. Pretty easy.
+
+For the second part, I looped through the size of an image (`width * height`) and then the value which is not 2 in a second loop through the layers. This enabled me to look at the previous layer data as I went through looking for a pixel value that's not 2.
+
+Printing the value to get what text it looks like was an awesome task. I got this:
+
+    ####.###..####.#..#.###..
+    #....#..#....#.#..#.#..#.
+    ###..###....#..#..#.#..#.
+    #....#..#..#...#..#.###..
+    #....#..#.#....#..#.#.#..
+    ####.###..####..##..#..#.
+
+Looking towards day #9!
+
 ## Day 7
 
 **Amplifiers**! This puzzle builds up from the [day 5](https://adventofcode.com/2019/day/5) `IntCode` puzzle. There's multi processing in part 2 which really had me in a mind blown state. For some reason ~~which I don't know~~ I just find it difficult understanding the int code puzzles. I managed to do the first part but translating that to part 2 became a bit of a challenge. One thing I learnt how to tackle it was to make the code I'm running more clear. I came across a solution by [alcatrazEscapee](https://github.com/alcatrazEscapee/AdventofCode/blob/master/2019/day7/day7.py) and reading through his code made me understand the puzzle even better. I hope day 8 is easy on me :laugh:.
