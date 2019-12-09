@@ -18,6 +18,12 @@ summary: "[The Advent of Code 2019](/thoughts/aoc19/) has my thoughts about the 
 
 I always like solving problems and this is a very nice place to practise my skills. This year, I would like to learn more concepts and I'm already liking this _AOC_. First, I'm liking the way [Jonathan Paulson's](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA/videos) videos. Precise and really nice to see. I also like [Liz Fong-Jones'](https://www.twitch.tv/lizthegrey) _Go_ solutions. My solutions are over [here](https://github.com/musale/advent-of-code-2019).
 
+## Day 9
+
+The `IntCode` makes a come back but we are prepared :fork_and_knife:! I liked this puzzle because in as much as you needed to rethink how you fetch the modes, that was all there was. In the second part it was a matter of changing the inputs and boom! Very easy and almost, just the way I like it.
+
+For me, I have the most of this `IntCode` solutions in Python. What I would like to do is to port it to `Go`.
+
 ## Day 8
 
 Decoding the image data was pretty easy. It involved array manipulation so from a higher level you can see the kind of problem that you have and the way the ideal solution needs to look like. For my case, I knew that I need a way to keep layers, which I did using a `dict`. To find the layer with the most common `zeros`, I used Python's `collections.Counter` to find the count of value 0 and set the lowest value for each layer. Pretty easy.
