@@ -16,7 +16,7 @@ summary: "[The Advent of Code 2019](/thoughts/aoc19/) has my thoughts about the 
 
 # Motivation
 
-I always like solving problems and this is a very nice place to practise my skills. This year, I would like to learn more concepts and I'm already liking this _AOC_. First, I'm liking the way [Jonathan Paulson's](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA/videos) videos. Precise and really nice to see. I also like [Liz Fong-Jones'](https://www.twitch.tv/lizthegrey) _Go_ solutions. My solutions are over [here](https://github.com/musale/advent-of-code-2019).
+I always like solving problems and this is a very nice place to practise my skills. This year, I would like to learn more concepts and I'm already liking this _AOC_. For starters, we have a lot of participation and people are streaming when they're solving the puzzles. I like the way [Jonathan Paulson's](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA/videos) videos are done. They are precise and really nice to see. He's fast too and that makes me want to look and think through a puzzle with his level of understanding and speed. I also like [Liz Fong-Jones'](https://www.twitch.tv/lizthegrey) _Go_ solutions. My solutions are over [here](https://github.com/musale/advent-of-code-2019).
 
 ## Day 9
 
