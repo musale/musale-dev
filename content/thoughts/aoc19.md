@@ -2,7 +2,6 @@
 title: "Advent of Code 2019"
 date: 2019-12-06T20:09:16+03:00
 lastmod: 2019-12-06T20:09:16+03:00
-draft: false
 authors:
   - Martin Musale
 tags:

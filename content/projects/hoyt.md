@@ -12,4 +12,4 @@ I bumped into [Ben Hoyt's](https://benhoyt.com/) website during my rounds on the
 
 ## Results
 
-I created a hugo theme named [hoyt](https://github.com/musale/hoyt) ~for obvious reasons, d'uh~. It's still a work in progress and contributions are welcome in accordance to the standard guidelines of contributing to OSS. I'm looking to add more features and hopefully make this into a fully-fledged theme but for the time being, my fingers are crossed.
+I created a hugo theme named [hoyt](https://github.com/musale/hoyt) ~~for obvious reasons, d'uh~~. It's still a work in progress and contributions are welcome in accordance to the standard guidelines of contributing to OSS. I'm looking to add more features and hopefully make this into a fully-fledged theme but for the time being, my fingers are crossed.

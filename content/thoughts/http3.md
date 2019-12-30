@@ -2,7 +2,6 @@
 title: "HTTP/3 and it's underlying protocol QUIC"
 date: 2019-11-26T02:55:15+03:00
 lastmod: 2019-11-26T02:55:15+03:00
-draft: false
 authors:
   - Martin Musale
 tags:
