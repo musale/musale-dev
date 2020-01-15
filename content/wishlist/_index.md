@@ -17,12 +17,15 @@ I'm an [avid reader](https://www.goodreads.com/user/show/13682301-mr-musale). My
 - [Composing Software](https://leanpub.com/composingsoftware) by Eric Elliot. This is technical read which explores functional programming and object composition in JavaScript. I like Eric alot, having read his previous books and blog articles, I really can't wait to put my hands on this one.
 
 - [Go, The Standard Library](https://leanpub.com/go-thestdlib) by Daniel Huckstep. Okay, this one is a technical one too that covers the most of Go's standard library. I like Go, I code in it and this one is getting me excited at exploring the language itself.
+- **A Philosophy of Software Design** by John Ousterhout.
+- **Talent is Overrated** by Geoffrey Colvin.
+- **Refactoring** by Martin Fowler.
 
 ## Technology
 
 On here, the options range from gadgets, hardware and software. Also, in no particular order:
 
-- [MacBook Pro 2019 16-inch](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch). I kinda just like it.
+- [MacBook Pro 2019 16-inch](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch). I like it.
 - [reMarkable tablet](https://remarkable.com). It's the paper tablet. Perfect for writing and reading. You can actually write [scripts](https://github.com/jessfraz/morningpaper2remarkable) to sync content into it! How :cool:!
 - [Dell 43 Ultra HD 4K Multi Client Monitor.](https://www.dell.com/en-us/work/shop/dell-43-ultra-hd-4k-multi-client-monitor-p4317q/apd/210-ahsq/monitors-monitor-accessories) Now this is productivity unchained.
 

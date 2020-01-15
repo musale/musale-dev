@@ -101,7 +101,7 @@ all by him and Dreamville artistes.
 
 Also, everything written by one of my favorite authors _Ms Dora Okeyo_. Read some of her books from [this list.](https://www.goodreads.com/author/list/5601708.Dora_Okeyo)
 
-## Gadgets I used ~~and I loved~~
+## Gadgets I use(d) ~~and I love(d)~~
 
 - Xiaomi Mi TV box. Toss all you 'smart TVs' out and just get this baby. It's one of a kind.
 - Samsung Galaxy Note 9. The only sane phone worth the money out here.
