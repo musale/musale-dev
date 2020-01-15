@@ -10,6 +10,7 @@ tags:
 
 I would like to be able to do the following things before I die:
 
+- Visit the republic of Morrocco.
 - [x] Attend a music concert.
 - [x] Climb a mountain (I climbed Mt. Longonot in 2017).
 - [ ] Watch Rihanna perform.
