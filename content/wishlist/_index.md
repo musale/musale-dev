@@ -32,3 +32,4 @@ These are various stuff which don't need a category. Still, they are in no parti
 
 - Tickets to a **Rihanna** concert. I already have my budget for this but just in case, LOL!
 - Tickets to a Manchester United game at Old Trafford. Despite their shitty perfomance lately ~~as of 2019-11-25~~ I still want to grace the _Theatre of Dreams_.
+- [The Spirit of St. Louis Amorgan Wrist Watch](https://www.armogan.com/us/all-watches-straps/watches/spirit-of-st-louis). I like the dull-colored ones.
