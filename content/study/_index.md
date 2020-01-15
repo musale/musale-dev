@@ -11,7 +11,7 @@ I intend to re-visit some of the things I feel I need to brush up on or learn. T
 | Week 01 | December 30, 2019  | January 5, 2020    | Planning for the year |
 | Week 02 | January 6, 2020    | January 12, 2020   | ~~SQL~~               |
 | Week 03 | January 13, 2020   | January 19, 2020   | GraphQL, Kubernetes   |
-| Week 04 | January 20, 2020   | January 26, 2020   | Redis, Terraform      |
+| Week 04 | January 20, 2020   | January 26, 2020   | Redis, Terraform, CDN |
 | Week 05 | January 27, 2020   | February 2, 2020   |                       |
 | Week 06 | February 3, 2020   | February 9, 2020   |                       |
 | Week 07 | February 10, 2020  | February 16, 2020  |                       |

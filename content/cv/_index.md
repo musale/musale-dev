@@ -14,7 +14,7 @@ tags:
 
 I’m a software developer with over 5 years of experience developing web applications, as well as providing technical management for small teams of software developers.
 
-I’m fluent in Python, JavaScript, HTML, English and Swahili. I’ve also written a good amount of Golang, CSS, Shell Scripting, C++, XSLT and Java. I learn quickly, care about detail, and love computer science and mathematics.
+I’m fluent in Python, JavaScript, HTML, English and Swahili. I’ve also written a good amount of Golang, CSS, Shell Scripting, XSLT and Java. I learn quickly, care about detail, and love computer science and mathematics.
 
 ## Skills: This is What I Do...
 
@@ -34,8 +34,8 @@ I’m fluent in Python, JavaScript, HTML, English and Swahili. I’ve also writt
 
 ### Management and leadership
 
-- Work with engineers to design and architect complex systems.
-- Manage hiring of new engineers. Review and interview candidates.
+- Work with engineers to design and architect software systems.
+- Manage the hiring of new engineers by reviewing and interviewing candidates.
 - Mentor developers, review code, and help establish engineering best practices.
 - Communicate and document effectively, and relate well to people.
 - Give internal training and technical talks. Provide Python expertise from many years of experience with the language.
