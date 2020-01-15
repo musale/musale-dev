@@ -67,10 +67,13 @@ all by him and Dreamville artistes.
 - Kenya's Harambee Stars winning the CECAFA cup in 2017. I watched all the games and my joy was just insurpussable when we won.
 - Naomi Osaka beating Serena Williams in the US open final. She made me so happy. I love Serena so much and her successes are legendary. I root for Osaka in the coming decade to take it up from her.
 - Anytime Kenyan athletes raced. I enjoyed it. I love our athletes. The best thing that has ever happened to our country. I hope in the coming decade they're treated and taken care of well.
+- Wayne Rooney's bicycle kick against Manchester City. The best of my time.
 
 ## Technological Advancements
 
-- // TODO
+- Artificial Intelligence has made very many significant steps. Advancements in Machine Learning and Natural Language processing have been made in many key areas health i.e. cancer detection.
+- Web Development has seen a rise in web developers, engineers and tools. New languages and libraries have been created that have revolutionized the way applications on the web are developed and maintained.
+- Blockchain and Cryptocurrency. This has never been of interest to me but it was ~~and still is?~~ a wave that took the decade by storm. In other applications, blockchain has been used to come up with fascnating solutions.
 
 ## Personal Moments
 
@@ -82,11 +85,11 @@ all by him and Dreamville artistes.
 
 ## Favorite People
 
-- My girlfriend. I love her. She makes me happy. She's like my escape. Some people sure do come into your life just to make you live it to the fullest. She's introduced me to very many things I didn't like at first but ended up loving and seeing or doing to an extent that I miss her a lot if she's not there. To a decade of love, adventure and growth.
-- My boys. Ah, these 3 gentlemen ~~Sharkdu lol~~ have always been there for me. I know I can depend on them and that makes me very glad to have them in my life. To a decade of joy, laughs and love. Also, my friends ~~Nice Humans~~, I 🤎 you all.
-- My siblings. I love these people. They understand me and are always ready to accomodate each of us with our different demands. To a decade of growth, love and laughs.
-- My aunt who has always been there for me in this city. I love you aunty Bri.
-- My parents. Especially my mum. Inspiration. Live long.
+- My girlfriend. I love her. She makes me happy. She's my escape. Some people come into your life and they make you live it to the fullest. She's introduced me to very many things that I didn't like at first but ended up loving and seeing or doing to an extent that I miss her a lot if she's not there. To a decade of love, adventure and growth.
+- My boys. Ah, these 3 gentlemen ~~Sharkdu lol~~ have always been there for me. I know I can depend on them and that makes me very glad to have them in my life. To a decade of joy, laughs and love. Also, my friends ~~Nice Humans~~, I :heart: you all.
+- My siblings. I love them. They understand me and they are always ready to accomodate each of us with our different desires. To a decade of growth, love and laughs.
+- My aunt who has always been there for me in this city and out. I love you aunty Bri.
+- My parents. Especially my mum. Inspirational. Live long mom.
 
 ## Reads of the decade
 
@@ -104,3 +107,4 @@ Also, everything written by one of my favorite authors _Ms Dora Okeyo_. Read som
 - Samsung Galaxy Note 9. The only sane phone worth the money out here.
 - Macbook Pro. Okay, I had my reservations some time in the decade but I got a Mac and I loved it. It's a PC for sane people.
 - Arduino. I programmed this once and I loved IOT for a minute. I hope I can get back to it in the coming decade.
+- PS4 and XBOX. Take your console war far away from mebecause I love both of them.
