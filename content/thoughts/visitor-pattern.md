@@ -1,7 +1,7 @@
 ---
 title: "The Visitor Pattern"
-date: 2020-05-12 07:00:22 PM
-lastmod: 2020-05-12 07:00:22 PM
+date: 2020-05-12T07:00:22+03:00
+lastmod: 2020-05-12T08:43:28+03:00
 authors:
   - Martin Musale
 tags:

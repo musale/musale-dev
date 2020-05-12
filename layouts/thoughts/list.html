@@ -9,8 +9,8 @@
     {{.Content}}
   </article>
   <ul>
-    <!-- Ranges through content/posts/*.md -->
-    {{ range .Pages }}
+    <!-- Ranges through content/thoughts/*.md -->
+    {{ range .Pages.ByWeight }}
     <li>
       {{ with .Params.summary }} {{ . | markdownify | safeHTML }} {{ end }}
     </li>
