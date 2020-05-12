@@ -19,7 +19,7 @@ From [wikipedia](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4
 
 ## Introduction
 
-Using an example of cocktails. Say we have a `Cocktail` that we can use to "make" different kinds of cocktails, say `Mojito` and `Daiquiri`. We can have a `Cocktail` interface that defines `Serve` and `Drink` methods:
+Using an example of cocktails. Say we have a `Cocktail` that we can use to "make" different kinds of cocktails, like `Mojito` and `Daiquiri`. We can have a `Cocktail` interface that defines `Serve` and `Drink` methods for a cocktail:
 
 ```go
 type Cocktail interface{
@@ -28,7 +28,7 @@ type Cocktail interface{
 }
 ```
 
-You can make the `Mojito` and `Daiquiri` implement the `Cocktail` interface like this:
+You can make the `Mojito` and `Daiquiri` implement the `Cocktail` interface methods like this:
 
 ```go
 type Mojito struct{}
@@ -44,9 +44,9 @@ func(m Daiquiri) Drink(){}
 
 ### The challenge
 
-Now, we want to be able to define new `Cocktail` operations without having to add new methods for each cocktail. For the above implementation, we'll have to add the method in the `Cocktail` interface and then implement the method in each of the cocktails that we want them to implement the method.
+Now, we want to be able to define new `Cocktail` operations without having to add the new methods on each existing cocktail. For the above implementation, we'll have to add the method in the `Cocktail` interface and then implement the method for each of the cocktails that we want to implement the method.
 
-The visitor pattern will allow you to operate on a `Cocktail` so that you can easily provide a `Cocktail` that easily conforms to all the cocktail operations. It makes it easier to add new ways to work on a cocktail without getting to make the change on each and every cocktail.
+The visitor pattern will allow you to operate on a `Cocktail` so that you can provide a `Cocktail` that easily conforms to all the cocktail operations. It makes it easier to add new ways to work on a cocktail without getting to make the change on each and every cocktail.
 
 ### The Visitor Pattern
 
@@ -59,7 +59,7 @@ type CocktailVisitor interface{
 }
 ```
 
-Next, we need to "route" the correct cocktail to the correct method on the visitor.
+Next, we need to "route" the correct cocktail to the correct method on the visitor by changing the `Cocktail` interface.
 
 ```go
 type Cocktail interface{
@@ -69,7 +69,7 @@ type Cocktail interface{
 
 With that, we are now able to make the `Cocktail` interface to have a method `accept` that takes in a `CocktailVisitor` or any object "that is" a `CocktailVisitor`.
 
-Finally, to make it work, we make the cocktails:
+Finally, we make the cocktails:
 
 ```go
 type Mojito struct{}
@@ -83,7 +83,7 @@ func (d Daiquiri) accept(v CocktailVisitor){
 }
 ```
 
-Now, if you need to add a new cocktail say a `Margharita`, you just have to implement it's visitor and add it to the `CocktailVisitor`.
+Now, if you need to add a new cocktail like a `Margharita`, you just have to implement it's visitor and add it to the `CocktailVisitor`.
 
 ### Usage
 
@@ -116,4 +116,4 @@ A working play example can he found [here](https://play.golang.org/p/5f_CjjuCvE-
 
 ### Conclusion
 
-The visitor pattern is a common pattern in language interpeters that allows the interpreter to work on various expressions by defining operations on them. Typically, the `accept` method will return an `interface{}` or something and that is well beyond the scope of this write up.
+The visitor pattern is a common pattern in language interpeters that allows the interpreter to work on various expressions by defining operations on them. Typically, the `accept` method will return an `interface{}` or a value. That is well beyond the scope of this write up.
