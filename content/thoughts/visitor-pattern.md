@@ -46,7 +46,7 @@ func(m Daiquiri) Drink(){}
 
 Now, we want to be able to define new `Cocktail` operations without having to add the new methods on each existing cocktail. For the above implementation, we'll have to add the method in the `Cocktail` interface and then implement the method for each of the cocktails that we want to implement the method.
 
-The visitor pattern will allow you to operate on a `Cocktail` so that you can provide a `Cocktail` that easily conforms to all the cocktail operations. It makes it easier to add new ways to work on a cocktail without getting to make the change on each and every cocktail.
+The visitor pattern will allow you to operate on a `Cocktail` so that you can provide a `Cocktail` that easily conforms to all the cocktail operations. It makes it easier to add new ways to work on a cocktail without getting to make the change on every cocktail.
 
 ### The Visitor Pattern
 
@@ -83,7 +83,7 @@ func (d Daiquiri) accept(v CocktailVisitor){
 }
 ```
 
-Now, if you need to add a new cocktail like a `Margharita`, you just have to implement it's visitor and add it to the `CocktailVisitor`.
+Now, if you need to add a new cocktail like a `Margharita`, you just have to implement its visitor and add it to the `CocktailVisitor`.
 
 ### Usage
 
@@ -93,10 +93,10 @@ You will need to define the operation you want to accomplish. We want to do a `D
 type DrinkVisit struct{}
 
 func (DrinkVisit) visitMojito(m Mojito) {
-	fmt.Println("Drinking mojitos")
+    fmt.Println("Drinking mojitos")
 }
 func (DrinkVisit) visitDaiquiri(d Daiquiri) {
-	fmt.Println("Drinking daiquiris")
+    fmt.Println("Drinking daiquiris")
 }
 ```
 
@@ -104,16 +104,18 @@ Then we do the magic like:
 
 ```go
 func main() {
-	visitor := DrinkVisit{}
-	mojito := &Mojito{}
-	daiquiri := &Daiquiri{}
-	mojito.accept(visitor)
-	daiquiri.accept(visitor)
+    visitor := DrinkVisit{}
+    mojito := &Mojito{}
+    daiquiri := &Daiquiri{}
+    mojito.accept(visitor)
+    daiquiri.accept(visitor)
 }
 ```
 
-A working play example can he found [here](https://play.golang.org/p/5f_CjjuCvE-)
+A working play example can be found [here](https://play.golang.org/p/5f_CjjuCvE-)
 
 ### Conclusion
 
-The visitor pattern is a common pattern in language interpeters that allows the interpreter to work on various expressions by defining operations on them. Typically, the `accept` method will return an `interface{}` or a value. That is well beyond the scope of this write up.
+The visitor pattern is a common pattern in language interpreters that allows the interpreter to work on various expressions by defining operations on them. Typically, the `accept` method will return an `interface{}` or a value. That is well beyond the scope of this write-up.
+
+_Initially posted at [musale.github.io](https://musale.github.io/thoughts/visitor-pattern)_
