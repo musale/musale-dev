@@ -8,7 +8,7 @@ tags:
   - go
   - design patterns
   - visitor pattern
-summary: "The [visitor design pattern](/thoughts/visitor-pattern) is about the pattern and also gives an explanation on it's usage in a simple example using Go."
+summary: "The [visitor design pattern](/thoughts/visitor-pattern) explains how to separate operations of an object from the object and then it gives a simple example using Go."
 ---
 
 # TL;DR
