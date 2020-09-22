@@ -12,9 +12,9 @@ tags:
 
 ## Summary
 
-I’m a backend software developer with over 5 years of experience developing web applications, as well as providing technical management for small teams of software developers.
+I’m a Software Engineer with over six years of experience developing web applications, as well as providing technical management for small teams of software developers.
 
-I’m fluent in Python, Go, JavaScript, HTML, English, and Swahili. I’ve also written a good amount of CSS, Bash, XSLT, and Java. I learn quickly, care about detail, and love computer science and mathematics.
+I’m fluent in Python, Go, JavaScript, HTML, English, and Swahili. I’ve also written a good amount of CSS, Bash, XSLT, and Java. I learn quickly, care about detail, and love Computer Science and Mathematics.
 
 ## Skills: This Is What I Do...
 
