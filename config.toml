@@ -66,3 +66,6 @@ Currently, I'm into interpreters, how programming languages work, and distribute
     [[params.subheading]]
     title = "Projects I've authored"
     description = """I've authored or co-developed some open-source software projects. They now live on their own [projects page](/projects)."""
+
+[params.Utterances]
+	repo = "musale/musale.github.io"
