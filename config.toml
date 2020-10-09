@@ -55,9 +55,11 @@ I’m currently with the Automation and Data Pipelining team at [Libryo](https:/
 
 Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth), and [Focus Mobile](https://smsleopard.com) – where I helped to make sending bulk SMSs faster and more efficient.
 
-When I'm not programming the web, I listen to music ~~and you can tell I love Rihanna~~ 😉, I [write](/thoughts), travel, [read](https://www.goodreads.com/user/show/13682301-mr-musale), and I imagine myself exercise.
+In my free time, I contribute to open source projects. I'm a maintainer at [Encode](https://www.encode.io/) where we aim to develop the highest quality open-source software. At the moment I'm mostly programming in [Python](https://python.org) and [TypeScript](https://typescriptlang.org/), but I enjoy [Go](https://golang.org/) and also learning new languages. My favorites typically change over time.
 
-Currently, I'm into interpreters, how programming languages work, and distributed systems."""
+Currently, I'm into interpreters, how programming languages work, and distributed systems.
+
+When I'm not programming the web, I listen to music ~~and you can tell I love Rihanna~~ 😉, I [write](/thoughts), travel, [read](https://www.goodreads.com/user/show/13682301-mr-musale), and I imagine myself exercise."""
 
     avatar = "images/avatar.jpg"
     avatarAlt = "Rihanna"
