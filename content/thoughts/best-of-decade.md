@@ -78,16 +78,16 @@ all by him and Dreamville artistes.
 ## Personal Moments
 
 - Getting to study Mathematics and Computer Science. I loved programming and there was a slight chance of me missing out to study CS. When I was actually confirmed, I was overjoyed.
-- Attending my girlfriend's masters graduation. She'd gone through a lot to finally get to graduate and it make me very happy to finally get to the end of it.
+- Attending my ex-girlfriend's masters graduation. She'd gone through a lot to finally get to graduate and it make me very happy to finally get to the end of it.
 - Getting my first paid job as a programmer. I teared because someone took a chance on me and right now, thanks to him, I am what I am.
 - Finishing 4th in a global challenge. And I got paid a lot of chums too :grin:
 - Seeing my family graduate; my sisters, my mother, my uncle (now a Dr. ). These moments made me feel very proud of them.
 
 ## Favorite People
 
-- My girlfriend. I love her. She makes me happy. She's my escape. Some people come into your life and they make you live it to the fullest. She's introduced me to very many things that I didn't like at first but ended up loving and seeing or doing to an extent that I miss her a lot if she's not there. To a decade of love, adventure and growth.
-- My boys. Ah, these 3 gentlemen ~~Sharkdu lol~~ have always been there for me. I know I can depend on them and that makes me very glad to have them in my life. To a decade of joy, laughs and love. Also, my friends ~~Nice Humans~~, I :heart: you all.
 - My siblings. I love them. They understand me and they are always ready to accomodate each of us with our different desires. To a decade of growth, love and laughs.
+- My boys. Ah, these 3 gentlemen ~~Sharkdu lol~~ have always been there for me. I know I can depend on them and that makes me very glad to have them in my life. To a decade of joy, laughs and love. Also, my friends ~~Nice Humans~~, I :heart: you all.
+- My ex-girlfriend. I love her. She made me happy. She was my escape. Some people come into your life and they make you live it to the fullest. She introduced me to very many things that I didn't like at first but ended up loving and seeing or doing to an extent that I missed her a lot if she's not there. To a decade of love, adventure and growth.
 - My aunt who has always been there for me in this city and out. I love you aunty Bri.
 - My parents. Especially my mum. Inspirational. Live long mom.
 

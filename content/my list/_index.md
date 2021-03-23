@@ -15,7 +15,7 @@ I would like to be able to do the following things before I die:
 - [x] Climb a mountain (I climbed Mt. Longonot in 2017).
 - [ ] Watch Rihanna perform.
 - [x] Live in another country (I lived in TZ for a week :grin:).
-- [ ] Read 1000 books (I'm at 44 officially recorded on GoodReads. Aluta Continua!).
+- [ ] Read 1000 books (I'm at 62 officially recorded on GoodReads. Aluta Continua!).
 - [ ] Start a company.
 - [ ] Get a patent.
 - [ ] Write an academic paper.
@@ -54,3 +54,4 @@ I would like to be able to do the following things before I die:
 - [ ] Visit _The Leaning Tower of Pisa_.
 - [ ] Visit Stonehenge and River Thames.
 - [ ] Visit The Victoria Falls in Zimbabwe.
+- [ ] Drive a luxurious car. Rolls Royce? Aston Martin?

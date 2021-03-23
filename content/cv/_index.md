@@ -36,9 +36,16 @@ I’m fluent in Python, Go, JavaScript, HTML, English, and Swahili. I’ve also 
 
 ## Experience
 
+
+### [Microsoft](https://microsoft.com) - Software Engineer II
+
+#### March 2021 - Present
+
+- Working in the Microsoft 365 team. 
+
 ### [Libryo](https://libryo.com) - Software Developer
 
-#### June 2018 - Present
+#### June 2018 - March 2021
 
 - Creating and monitoring services and automation scripts that are used in the Libryo Content Pipeline.
 - Strategic support and consultation around technology decisions like; which technologies to use, how to use them and when, automation, mechanization, policies, processes, and procedures required for optimal efficiency, effectiveness and quality output.
@@ -107,4 +114,4 @@ I have a BSc. in Mathematics and Computer Science and I graduated from the [Jomo
 
 I developed an interest in programming during my time at JKUAT. After getting my first internship at [WezaTele](https://wezatele.com) which introduced me to web application programming, I never looked back. I love making simple, fast, and light solutions - and that's paid off during my career.
 
-I enjoy [reading](https://www.goodreads.com/user/show/13682301-mr-musale) and [writing](/thoughts). I'm into traveling, trying out recipes, learning new things, and making new friends. I enjoy spending time with my friends and my lovely girlfriend. I aim to improve myself and those I influence around me.
+I enjoy [reading](https://www.goodreads.com/user/show/13682301-mr-musale) and [writing](/thoughts). I'm into traveling, trying out recipes, learning new things, and making new friends. I enjoy spending time with my friends and my family. I aim to improve myself and those I influence around me.
