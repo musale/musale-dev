@@ -65,11 +65,15 @@ jobs:
         directory: ./public
 
     - name: Update this repo's submodules
-      uses: actions/checkout@v2
-      with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      run: |
+        git config --local user.email "martinmshale@gmail.com"
+        git config --local user.name "Musale Martin"
+        msg="Rebuilding the site on `date`"
+        if [ $# -eq 1 ]
+          then msg="$1"
+        fi
+        git add .
+        git commit -m "$msg"
 
     - name: Push changes to musale-dev
       uses: ad-m/github-push-action@master
