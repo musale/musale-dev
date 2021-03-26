@@ -47,8 +47,8 @@ jobs:
     - name: Check out the public submodule folder and commit files
       run: |
         cd public
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "martinmshale@gmail.com"
+        git config --local user.name "Martin Musale"
         msg="Rebuilding the site on `date`"
         if [ $# -eq 1 ]
           then msg="$1"
