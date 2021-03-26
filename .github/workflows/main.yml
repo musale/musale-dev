@@ -61,6 +61,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
-        repository: musale.github.io
+        repository: musale/musale.github.io
         directory: ./public
     
