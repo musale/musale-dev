@@ -23,7 +23,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
