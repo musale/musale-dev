@@ -65,7 +65,6 @@ jobs:
         directory: ./public
 
     - name: Update this repo's submodules
-      uses: actions/checkout@v2
       run: |
         git config --local user.email "martinmshale@gmail.com"
         git config --local user.name "Musale Martin"
