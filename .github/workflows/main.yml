@@ -53,6 +53,7 @@ jobs:
         if [ $# -eq 1 ]
           then msg="$1"
         fi
+        git add .
         git commit -m "$msg"
         
     - name: Push changes
