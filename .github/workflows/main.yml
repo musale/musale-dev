@@ -48,7 +48,7 @@ jobs:
       run: |
         cd public
         git config --local user.email "martinmshale@gmail.com"
-        git config --local user.name "Martin Musale"
+        git config --local user.name "Musale Martin"
         msg="Rebuilding the site on `date`"
         if [ $# -eq 1 ]
           then msg="$1"
@@ -56,11 +56,24 @@ jobs:
         git add .
         git commit -m "$msg"
         
-    - name: Push changes
+    - name: Push changes to musale.github.io
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GH_TOKEN_MGI }}
         branch: master
         repository: musale/musale.github.io
         directory: ./public
+
+    - name: Update this repo's submodules
+      uses: actions/checkout@v2
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    - name: Push changes to musale-dev
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GH_TOKEN_MGI }}
+        branch: master
     
