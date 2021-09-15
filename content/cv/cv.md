@@ -41,7 +41,8 @@ I’m fluent in Python, Go, JavaScript, HTML, English, and Swahili. I’ve also 
 
 #### March 2021 - Present
 
-- Working in the Microsoft 365 team. 
+- Working in the Microsoft 365 team.
+- Building [microsoft-graph-toolkit](https://github.com/microsoftgraph/microsoft-graph-toolkit) 
 
 ### [Libryo](https://libryo.com) - Software Developer
 
