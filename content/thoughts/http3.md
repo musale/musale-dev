@@ -14,7 +14,7 @@ summary: "[HTTP/3 and it's underlying protocol QUIC](/thoughts/http3/) talks abo
 
 > QUIC is a name, not an acronym. [^1]
 
-![QUIC Logo](https://http3-explained.haxx.se/images/QUIC.png)
+![QUIC Logo](https://gblobscdn.gitbook.com/assets%2F-LvW30M9uwlSh6noqzxa%2F-LvW31Pn1JTBepfnVcl_%2F-LvW36QJguX0FR2qaPtX%2FQUIC.png?alt=media)
 
 It is the underlying transport protocol on top of which HTTP3 is built. It is meant to address the challenges that were experienced by HTTP2 on TCP and TLS.
 

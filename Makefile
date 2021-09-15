@@ -6,6 +6,10 @@ deploy:
 dev:
 	@hugo server -D
 
+.PHONY: dev-wsl
+dev-wsl:
+	@hugo server -D --bind 172.23.115.90 --baseURL=http://172.23.115.90 --disableFastRender
+
 .PHONY: build
 build:
 	@hugo -t hoyt
