@@ -10,7 +10,7 @@ tags:
   - Python3
   - Algorithms
   - Data Structures
-summary: "[The Advent of Code 2019](/thoughts/aoc19/) has my thoughts about the daily [exercises](https://adventofcode.com/) which I'm currently attempting to solve with both _Go_ and _Python 3_."
+description: "[The Advent of Code 2019](/thoughts/aoc19/) has my thoughts about the daily [exercises](https://adventofcode.com/) which I'm currently attempting to solve with both _Go_ and _Python 3_."
 ---
 
 # Motivation
