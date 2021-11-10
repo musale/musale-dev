@@ -5,3 +5,6 @@
 [submodule "themes/hoyt"]
 	path = themes/hoyt
 	url = git@github.com:musale/hoyt.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = git@github.com:musale/hugo-theme-terminal.git

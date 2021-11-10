@@ -1,7 +1,7 @@
 ---
 title: "The Best of my Decade"
 subtitle: "The top things that happened in 2010-2019 for me."
-summary: "In [this article](/thoughts/best-of-decade/), I reflect on some of the best things and moments that I had in the decade 2010-2019. It's been a wonderful 10 years full of ups and downs and in as much as I would like to have a balanced view of both, I choose to stick with the positive things that happened to me and that I can remember."
+description: "In [this article](/thoughts/best-of-decade/), I reflect on some of the best things and moments that I had in the decade 2010-2019. It's been a wonderful 10 years full of ups and downs and in as much as I would like to have a balanced view of both, I choose to stick with the positive things that happened to me and that I can remember."
 authors: [Martin Musale]
 tags:
   [

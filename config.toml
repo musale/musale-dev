@@ -1,75 +1,104 @@
-baseURL = "https://musale.github.io/"
+baseurl = "https://musale.github.io/"
 languageCode = "en-us"
-title = "Musale Martin"
-theme = "hoyt"
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsStyle = "native"
-enableEmoji = true
-latexDashes = true
-googleAnalytics = "UA-154147297-1"
-
-[[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 10
-
-[[menu.main]]
-	name = "CV"
-	url  = "/cv"
-	weight = 20
-
-[[menu.main]]
-	name = "Projects"
-	url  = "/projects"
-	weight = 30
-
-[[menu.main]]
-	name = "Thoughts?"
-	url  = "/thoughts"
-	weight = 50
-
-[[menu.main]]
-	name = "Bucket List"
-	url  = "/my-list"
-	weight = 60
-
-[[menu.main]]
-	name = "Wishlist"
-	url  = "/wishlist"
-	weight = 70
-
-[[menu.main]]
-	name = "Contact"
-	url  = "/contacts"
-	weight = 80
+theme = "terminal"
+paginate = 5
 
 [params]
-	name = "Martin Musale"
-	tagLine = "$ sudo cat /usr/bin/me"
-    description = """I’m Musale Martin – a learner, problem-solver, and software engineer from Kenya, based in Nairobi.
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-I'm currently building ~~and breaking~~ software at Microsoft in the M365 team.
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
 
-I was previously with the Automation and Data Pipelining team at [Libryo](https://libryo.com). We were helping businesses to know their regulations by collecting, tagging, summarising, and giving them notifications about the law when it changes.
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 6
 
-Before that, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth), and [Focus Mobile](https://smsleopard.com) – where I helped to make sending bulk SMSs faster and more efficient.
+  # show selector to switch language
+  showLanguageSelector = false
 
-In my free time, I contribute to open source projects. I'm a maintainer at [Encode](https://www.encode.io/) where we aim to develop the highest quality open-source software. At the moment I'm mostly programming in [Python](https://python.org) and [TypeScript](https://typescriptlang.org/), but I enjoy [Go](https://golang.org/) and also learning new languages. My favorites typically change over time.
+  # set theme to full screen width
+  fullWidthTheme = false
 
-I graduated with a BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem-solving.
+  # center theme with default width
+  centerTheme = true
 
-Currently, I'm into interpreters, how programming languages work, and distributed systems.
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
 
-When I'm not programming the web, I listen to music ~~and you can tell that I love Rihanna~~ 😉, I [write](/thoughts), travel, [read](https://www.goodreads.com/user/show/13682301-mr-musale), and I imagine myself exercise."""
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = true
+  enableGitInfo = true
 
-    avatar = "images/avatar.jpg"
-    avatarAlt = "Rihanna"
-    avatarTitle = "I love Rihanna"
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
 
-    [[params.subheading]]
-    title = "Projects I've authored"
-    description = """I've authored or co-developed some open-source software projects. They now live on their own [projects page](/projects)."""
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  updatedDatePrefix = "Updated On"
 
-[params.Utterances]
-	repo = "musale/musale.github.io"
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  oneHeadingSize = false
+
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = "m4musale"
+  site = "https://musale.github.io"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Martin Musale"
+    subtitle = "I’m Musale Martin – a learner, problem-solver, and software engineer from Kenya, based in Nairobi. I'm currently building ~~and breaking~~ software at Microsoft in the M365 team."
+    owner = "Martin Musale"
+    keywords = "Web Development, Software Developer Engineer, Programming, Data Structures and Algorithms"
+    copyright = "© 2021 Martin Musale"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Martin Musale (⌐▨_▨)"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "contacts"
+        name = "Contacts"
+        url = "/contacts"
+		weight = 60
+      [[languages.en.menu.main]]
+        identifier = "thoughts"
+        name = "Thoughts?"
+        url = "/thoughts"
+		weight = 30
+	  [[languages.en.menu.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "/cv"
+		weight = 10
+	  [[languages.en.menu.main]]
+        identifier = "wishlist"
+        name = "Wishlist"
+        url = "/wishlist"
+		weight = 40
+	  [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+		weight = 20
+	  [[languages.en.menu.main]]
+        identifier = "my-list"
+        name = "Bucket List"
+        url = "/my-list"
+		weight = 50
