@@ -17,9 +17,9 @@
   {{ end }}
 
   {{ if gt $allComments 0 }}
-    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">{{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }}</h3>
+    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title" style="color: rgba(120,226,160,.7);">{{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }}</h3>
   {{ else }}
-    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">No comments yet!</h3>
+    <h3 id="welcomments__comment-count-title" class="welcomments__comments-title" style="color: rgba(120,226,160,.7);">No comments yet!</h3>
   {{ end }}
 
   <section id="welcomments__comment-container" class="welcomments__comment-container">
