@@ -1,9 +1,9 @@
 ---
-title: txt-from-img
+title: Testing the Tessaract OCR Project
 slug: txt-from-img
 tags: [mpesa, asyncio, python]
 date: 2019-08-15
-summary: "[txt-from-img](txt-from-img/) was a gentle introduction to the tessaract library and how to get text from an image in a lambda function."
+description: "[txt-from-img](txt-from-img/) was a gentle introduction to the tessaract library and how to get text from an image in a lambda function."
 ---
 
 ## Motivation
