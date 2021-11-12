@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 googleAnalytics = "UA-154147297-1"
+enableEmoji = true
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -43,7 +44,6 @@ googleAnalytics = "UA-154147297-1"
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
   oneHeadingSize = false
-  framed = true
 
 [params.twitter]
   # set Twitter handles for Twitter cards
