@@ -23,6 +23,9 @@ description: "[The Advent of Code 2019](/thoughts/aoc21/) has my thoughts about 
 
 I always like solving problems and this is a very nice place to practise my skills. This year, I would like to learn more concepts and I'm already liking this _AOC_. For starters, we have a lot of participation and people are streaming when they're solving the puzzles. I like the way [Jonathan Paulson's](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA/videos) videos are done. They are precise and really nice to see. He's fast too and that makes me want to look and think through a puzzle with his level of understanding and speed. I also like [Liz Fong-Jones'](https://www.twitch.tv/lizthegrey) _Go_ solutions. My solutions are over [here](https://github.com/musale/advent-of-code-2021).
 
+## Day 2
+
+This one was an easy one. What was required was to navigate the submarine based on a series of commands. For each command, you manipulate the positions of the `horizontal` and `depth` value. I dilly-dallied on part one to get my go interfaces and receivers right. Part two only need a slight tweak. However, I did not cath the point where I was not supposed to change the values for `down` and `up` commands but I quickly rectified that and was good to go. So far, I like doing this in go as it gives me an easier framework to compose my solutions.
 
 ## Day 1
 
