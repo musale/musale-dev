@@ -4,10 +4,55 @@ draft: false
 tags:
   - Software Engineer
   - Software Development
+  - Web Development
   - Python
   - Go
   - JavaScript
   - NodeJS
+  - Backend
+  - API Development and Consumption
+  - API Integration
+  - UI/UX
+  - DevOps
+  - Troubleshooting
+  - Web Scraping
+  - Scripting
+  - Code Review
+  - Automation
+  - USSD
+  - Optimization
+  - Deployment
+  - CI/CD
+  - Software Infrastructure
+  - Software Design
+  - Teamwork
+  - Linux
+keywords:
+  - Software Engineer
+  - Software Development
+  - Web Development
+  - Python
+  - Go
+  - JavaScript
+  - NodeJS
+  - Backend
+  - API Development and Consumption
+  - API Integration
+  - UI/UX
+  - DevOps
+  - Troubleshooting
+  - Web Scraping
+  - Scripting
+  - Code Review
+  - Automation
+  - USSD
+  - Optimization
+  - Deployment
+  - CI/CD
+  - Software Infrastructure
+  - Software Design
+  - Teamwork
+  - Linux
 ---
 
 ## Summary
