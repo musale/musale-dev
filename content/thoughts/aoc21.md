@@ -1,7 +1,6 @@
 ---
 title: "Advent of Code 2021"
 date: 2021-12-01T08:36:14+03:00
-lastMod: 2021-12-01T08:36:40:14+03:00
 authors:
   - Martin Musale
 tags:
@@ -25,7 +24,9 @@ I always like solving problems and this is a very nice place to practise my skil
 
 ## Day 2
 
-This one was an easy one. What was required was to navigate the submarine based on a series of commands. For each command, you manipulate the positions of the `horizontal` and `depth` value. I dilly-dallied on part one to get my go interfaces and receivers right. Part two only need a slight tweak. However, I did not cath the point where I was not supposed to change the values for `down` and `up` commands but I quickly rectified that and was good to go. So far, I like doing this in go as it gives me an easier framework to compose my solutions.
+The day two challenge was an easy one. What was required was to navigate the submarine using a series of commands. For each command, you manipulate the positions of the `horizontal` and `depth` values. I dilly-dallied on part one to get my go interfaces and receivers right. Part two only needs a slight tweak. However, I did not catch the point where I was not supposed to change the values for `down` and `up` commands however, I quickly rectified that and was good to go. So far, I like doing this in Go as it gives me an easier framework to compose my solutions.
+
+You can find my solution to this exercise in *golang* [here.](https://github.com/musale/advent-of-code-2021/blob/master/day_02/go/main.go)
 
 ## Day 1
 
