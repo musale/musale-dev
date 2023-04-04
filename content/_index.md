@@ -5,18 +5,13 @@ framed: true
 
 # Hello stranger!
 
-I’m Musale Martin – a learner, problem-solver, and software engineer from Kenya, based in Nairobi.
+I'm Martin Musale, a Software Developer based in Nairobi, Kenya. Currently, I work at `Microsoft` in the `Graph Developer Experiences` team where I build ~~and break~~ [Graph](https://aka.ms/graph) Developer Tools. I mostly work on the [Microsoft Graph Toolkit](https://aka.ms/mgt). You can see some of the other stuff I work on in [GitHub](https://github.com/musale).
 
-I'm currently building ~~and breaking~~ software at `Microsoft` in the `M365 Core` team.
+When I'm not working, I like [writing](/thoughts), [reading](https://www.goodreads.com/user/show/13682301-mr-musale). I maintain these websites:
 
-Previously, I was with the `Automation and Data Pipelining` team at [Libryo](https://libryo.com). We were helping businesses to know their regulations by collecting, tagging, summarising, and giving them notifications about the law when it changes.
+- [localusr.com](https://localusr.com) where I write about Software Development and issues that developers(me) face while at it.
+- [riotbytes.com](https://riotbytes.com) where I write about the web and my findings in developing it.
 
-Before that, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth), and [Focus Mobile](https://smsleopard.com) – where I helped to make sending bulk SMSs faster and more efficient.
+Out of the office, you can find me playing football, traveling, and exploring with my friends.
 
-In my free time, I contribute to open source projects. I'm a maintainer at [Encode](https://www.encode.io/) where we aim to develop the highest quality open-source software. I mostly programming in [Python](https://python.org) and [TypeScript](https://typescriptlang.org/), but I enjoy [Go](https://golang.org/) and also learning new languages. My favorites typically change over time.
-
-I graduated with a BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem-solving.
-Currently, I'm into web development and distributed systems.
-
-When I'm not programming the web, I listen to music, I [write](/thoughts), travel, [read](https://www.goodreads.com/user/show/13682301-mr-musale), and I imagine myself exercise.
-
+I'm open for consultation and part-time work, you can reach me on email at martinmshale@gmail.com or see my [contacts page](/contacts)
