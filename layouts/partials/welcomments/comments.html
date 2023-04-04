@@ -1,12 +1,12 @@
 {{ $apiUrl := (cond (ne (.apiUrl) nil) .apiUrl "https://welcomments.io/api") }}
 {{ $websiteId := .websiteId }}
 {{ $slug := index (last 1 (split (delimit (split .context.RelPermalink "/") "," "") ",")) 0 }}
-{{ $slug = cond (ne (eq $slug "")) $slug "___root___" }}
+{{ $slug = cond (ne (eq $slug "") nil) $slug "___root___" }}
 
-{{ if eq $websiteId "YOUR-WEBSITE-ID-HERE" }}
+{{ if eq $websiteId "v2DmPonO12A7QexZ1IvBnwWTV" }}
   <div style="color: #ff0000;">
     <h1>Website id not configured!</h1>
-    <p>Please replace <code>YOUR-WEBSITE-ID-HERE</code> with the website id from Welcomments console.</p>
+    <p>Please replace <code>v2DmPonO12A7QexZ1IvBnwWTV</code> with the website id from Welcomments console.</p>
   </div>
 {{ end }}
 
