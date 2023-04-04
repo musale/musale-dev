@@ -26,7 +26,7 @@ I would like to be able to do the following things before I die:
 - [ ] Go on a trip overseas with my whole family.
 - [ ] Take a hot-air balloon ride.
 - [ ] Be in a submarine.
-- [ ] Swim (I try, but I want to know it properly and do the Olympic distance).
+- [x] Swim (I try, but I want to know it properly and do the Olympic distance).
 - [x] Run a half marathon.
 - [ ] Run a full marathon.
 - [ ] Go scuba diving.
@@ -55,3 +55,4 @@ I would like to be able to do the following things before I die:
 - [ ] Visit Stonehenge and River Thames.
 - [ ] Visit The Victoria Falls in Zimbabwe.
 - [ ] Drive a luxurious car. Rolls Royce? Aston Martin?
+- [ ] Tour the United Kingdom.
