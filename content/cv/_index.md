@@ -27,6 +27,8 @@ tags:
   - Software Design
   - Teamwork
   - Linux
+  - Kubernetes
+  - Cloud Engineering
 keywords:
   - Software Engineer
   - Software Development
@@ -53,17 +55,19 @@ keywords:
   - Software Design
   - Teamwork
   - Linux
+  - Kubernetes
+  - Cloud Engineering
 ---
 
 ## Summary
 
-I’m a passionate and innovative software developer. I have over seven years of experience developing web applications. I also provide technical management for small teams of software developers.
+I am a talented, driven and enthusiastic software engineer interested in web development, distributed systems and building better developer experiences. I have over nine years of experience creating software, collaborating in cross functional teams and creating value using technology.
 
 ## Skills: This Is What I Do...
 
 ### Software development
 
-- Programming in Python, Go, and JavaScript (Node JS, ES5/6).
+- Programming in Python, Go, and TypeScript (Node JS, ES5/6).
 - Developing and consuming RESTful APIs.
 - Software architecture, design, analysis, development, and maintenance.
 - Software deployment with tools like systemd, Kubernetes, and Docker.
@@ -85,7 +89,9 @@ I’m a passionate and innovative software developer. I have over seven years of
 
 #### March 2021 - Present
 
-I build tools that help developers interact with Microsoft 365 data. Currently, I work on the [Microsoft Graph Toolkit](https://aka.ms/mgt). This is a suite of plug-and-play components and providers that authenticate and render graph data. I also work with other teams to improve their products through reviews and testing.
+I’m building a cross-cloud platform on top of the Azure Kubernetes Service.
+
+Previously, I built tools that help developers interact with Microsoft 365 data. I worked on the [Microsoft Graph Toolkit](https://aka.ms/mgt). This is a suite of plug-and-play components and providers that authenticate and render graph data. I also worked with other teams to improve their products through reviews and testing.
 
 ### [Libryo](https://libryo.com) - Software Engineer & Technical Lead
 
