@@ -17,7 +17,7 @@ Seriously though, shoot me an email at [martinmshale@gmail.com](mailto:martinmsh
 
 I'm available to help you launch your startup, choose your tech stack, develop your application, or review your code.
 
-Although I specialize in Go, I have over 10 years experience building web applications, APIs and Web services using different languages and technologies. I value friendliness and kindness in interactions, and simplicity and clarity in code, architecture and workflows.
+Although I specialize in Go, Python and TypeScript, I have over 10 years experience building web applications, APIs and Web services using different languages and technologies. I value friendliness and kindness in interactions, and simplicity and clarity in code, architecture and workflows.
 
 I speak both technology and business. I'm just as happy to talk with you about return on investment as relational databases. In fact, where the two areas meet is where I like to work most.
 
