@@ -40,8 +40,9 @@ jobs:
     # Step 5 - Create name file
     - name: Check out the public submodule folder and commit files
       run: |
-        ls -lha public
+        git status
         cd public
+        git status
         git config --local user.email "martinmshale@gmail.com"
         git config --local user.name "Musale Martin"
         msg="Rebuilding the site on `date`"
