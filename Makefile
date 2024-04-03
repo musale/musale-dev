@@ -12,7 +12,7 @@ dev-wsl:
 
 .PHONY: build
 build:
-	@hugo -t hoyt
+	@hugo -t terminal
 
 .PHONY: update_subs
 update_subs:
