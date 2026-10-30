@@ -105,3 +105,9 @@ enableEmoji = true
         name = "Bucket List"
         url = "/my-list"
 		weight = 50
+    [[languages.en.menu.main]]
+        identifier = "ai"
+        name = "AI and Agents"
+        url = "/ai"
+    weight = 60
+
