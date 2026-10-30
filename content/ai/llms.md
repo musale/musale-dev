@@ -1,5 +1,6 @@
 ---
 title: Large language models
+date: 2026-10-30T14:47:10+03:00
 weight: 10
 description: How language models predict text, learn from data, and run on hardware, with diagrams and references.
 ---
