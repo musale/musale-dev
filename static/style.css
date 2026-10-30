@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Studio Feixen Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/StudioFeixenSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Studio Feixen Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/StudioFeixenSans-Medium.otf") format("opentype");
+}
+
+body {
+  font-family: "Studio Feixen Sans", Arial, sans-serif;
+  letter-spacing: normal;
+  font-feature-settings: normal;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: "Fira Code", Monaco, Consolas, monospace !important;
+  font-feature-settings: "liga", "calt";
+  font-variant-ligatures: contextual;
+  letter-spacing: normal;
+}
+
+pre,
+code {
+  font-size: calc(0.95rem - 1pt) !important;
+}
+
+@media (max-width: 684px) {
+  .post-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
