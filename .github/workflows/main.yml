@@ -18,9 +18,10 @@ jobs:
       uses: actions/checkout@v4
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: master
           submodules: true
           fetch-depth: 0
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          persist-credentials: false
 
     # Step 2 - Sets up the latest version of Hugo
     - name: Setup Hugo
@@ -31,6 +32,9 @@ jobs:
     # Step 3 - Clean and don't fail
     # - name: Clean public directory
     #   run: rm -rf public
+
+    - name: Prepare deployment branch
+      run: git -C public checkout -B master origin/master
 
     # Step 4 - Builds the site using the latest version of Hugo
     # Also specifies the theme we want to use
@@ -74,6 +78,6 @@ jobs:
     - name: Push changes to musale-dev
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GH_TOKEN_MGI }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
     
