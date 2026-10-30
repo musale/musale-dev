@@ -3,10 +3,10 @@
 {{ $slug := index (last 1 (split (delimit (split .context.RelPermalink "/") "," "") ",")) 0 }}
 {{ $slug = cond (ne (eq $slug "") nil) $slug "___root___" }}
 
-{{ if eq $websiteId "v2DmPonO12A7QexZ1IvBnwWTV" }}
+{{ if or (not $websiteId) (eq $websiteId "YOUR-WEBSITE-ID-HERE") }}
   <div style="color: #ff0000;">
     <h1>Website id not configured!</h1>
-    <p>Please replace <code>v2DmPonO12A7QexZ1IvBnwWTV</code> with the website id from Welcomments console.</p>
+    <p>Please replace <code>YOUR-WEBSITE-ID-HERE</code> with the website id from Welcomments console.</p>
   </div>
 {{ end }}
 
@@ -106,4 +106,3 @@
     },
   };
 </script>
-
