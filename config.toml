@@ -2,8 +2,10 @@ baseurl = "https://musale.github.io/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
-googleAnalytics = "UA-154147297-1"
 enableEmoji = true
+
+[services.googleAnalytics]
+  id = "G-QQ48L99YHX"
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -110,4 +112,3 @@ enableEmoji = true
         name = "AI and Agents"
         url = "/ai"
     weight = 60
-
