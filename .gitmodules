@@ -1,7 +1,7 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:musale/musale.github.io.git
+	url = https://github.com/musale/musale.github.io.git
 	branch = master
 [submodule "themes/terminal"]
 	path = themes/terminal
-	url = git@github.com:musale/hugo-theme-terminal.git
+	url = https://github.com/musale/hugo-theme-terminal.git
