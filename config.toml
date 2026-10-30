@@ -58,11 +58,11 @@ enableEmoji = true
   [languages.en]
     languageName = "English"
     title = "Martin Musale"
-    copyright = "© 2024 Martin Musale"
+    copyright = "© {year} Martin Musale"
   [languages.en.params]
     readMore = "Read more"
     readOtherPosts = "Read other posts"
-    subtitle = "I’m Musale Martin – a learner, problem-solver, and software engineer from Kenya, based in Nairobi. I'm currently building ~~and breaking~~ software at Microsoft in the M365 team."
+    subtitle = "I'm Martin Musale, a backend and platform software engineer based in Nairobi, Kenya. I consult at Acoruss, where I head the technology wing."
     owner = "Martin Musale"
     keywords = "Web Development, Software Developer Engineer, Programming, Data Structures and Algorithms, Kubernetes, Go, Cloud Engineering"
     missingBackButtonLabel = "Back to home page"
