@@ -1,0 +1,3 @@
+The demonstration project is called Paper Kite.
+It is a local notes application written in Go.
+The next task is to document the approval flow for creating a note.

@@ -1,0 +1,3 @@
+Only synthetic notes belong in this demonstration workspace.
+The assistant may propose draft.txt but cannot approve or save it.
+Do not use this example to process private files.
