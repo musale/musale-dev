@@ -1,0 +1,3 @@
+The project is called Paper Kite.
+Its release checklist is: run the tests, review the diff, then ask for approval.
+The demonstration code is BLUE-47.
