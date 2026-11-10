@@ -49,6 +49,12 @@ code {
   max-width: 72ch;
 }
 
+.index-content > h1 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  line-height: 1.2;
+}
+
 .home-content > h1 {
   margin: 0 0 1.25rem;
   font-size: clamp(2.5rem, 6vw, 4rem);
@@ -82,12 +88,6 @@ code {
 
 .home-content > h3 + p {
   margin-top: 0;
-}
-
-.archive-intro > h1 {
-  margin: 0 0 1.25rem;
-  font-size: clamp(2rem, 4vw, 2.5rem);
-  line-height: 1.2;
 }
 
 .archive-intro h2 {
