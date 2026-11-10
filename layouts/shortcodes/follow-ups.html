@@ -1,0 +1,18 @@
+{{- $articles := slice -}}
+{{- $now := now -}}
+{{- $site := .Site -}}
+{{- range .Page.Params.followups -}}
+  {{- with $site.GetPage . -}}
+    {{- if and .IsPage .RelPermalink (not .Draft) (le .PublishDate $now) (or .ExpiryDate.IsZero (gt .ExpiryDate $now)) -}}
+      {{- $articles = $articles | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $articles }}
+<h2 id="follow-up-articles">Follow-up articles</h2>
+<ul>
+  {{ range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Description }}: {{ . }}{{ end }}</li>
+  {{ end }}
+</ul>
+{{ end -}}

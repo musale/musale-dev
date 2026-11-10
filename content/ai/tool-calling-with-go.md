@@ -6,6 +6,11 @@ draft: false
 description: Build local notes tools in Go, validate every model request, and keep file creation behind separate human approval.
 toc: true
 readingTime: true
+followUps:
+  - ai/authenticated-api-tools-with-go
+  - ai/notes-tools-over-mcp
+  - ai/restricted-command-tools
+  - ai/email-github-collaboration-assistant
 ---
 
 The model asks to read a file. That sounds simple until the path points outside the workspace, the arguments are malformed, or the next request would change something on disk.
@@ -340,14 +345,7 @@ The program is intentionally one turn with one possible proposal. It has no dura
 
 For this exercise, I want to be able to point at the code that permits each operation. The model can ask for a file and suggest a new note. Saving that note remains a separate application action.
 
-## Follow-up articles
-
-These planned follow-ups are outside this article's local tool example:
-
-- An authenticated API tool: start with a read-only endpoint. Keep credentials in the application, fix the allowed endpoint and method, and distinguish service authentication from the user's permission to access a resource.
-- Exposing the tools through MCP: reuse the tool behavior and explain what the protocol changes. Connecting through MCP should not silently grant broader permissions.
-- Restricted command execution: examine isolation, restricted capabilities, and resource limits as a separate exercise. The local notes example does not need arbitrary command execution.
-- An email-to-GitHub collaboration assistant: read selected emails, inspect approved repositories, recommend matches privately, and prepare a response draft. Treat incoming email as untrusted input and enforce disclosure rules for private projects. Sending email or inviting collaborators would require separate authorization and approval.
+{{< follow-ups >}}
 
 [^tools]: [Ollama tool calling](https://docs.ollama.com/capabilities/tool-calling).
 [^json]: [Go `encoding/json` decoding behavior](https://pkg.go.dev/encoding/json#Unmarshal).
