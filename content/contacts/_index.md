@@ -1,34 +1,36 @@
 ---
-title: How to Find Me
+title: Contact
+description: Get in touch about backend engineering, APIs, developer tools, consulting, or something I've written.
 ---
 
-You can reach me on bird mail. :satisfied:
+# Contact
 
-Seriously though, shoot me an email at [martinmshale@gmail.com](mailto:martinmshale@gmail.com). Alternatively, you can find me online on these sites:
+Have a project in mind, a question about an article, or just want to say hello? Email me at [martinmshale@gmail.com](mailto:martinmshale@gmail.com).
 
-- [GitHub](https://github.com/musale)
-- [DevTo](https://dev.to/musale)
-- [StackOverflow](https://stackoverflow.com/users/4444629/musale)
-- [Twitter](https://twitter.com/musaletweets)
-- [Instagram](https://instagram.com/musale.png)
-- [LinkedIn](https://www.linkedin.com/in/musalemartin/)
+For work and code, I'm on [LinkedIn](https://www.linkedin.com/in/musalemartin/) and [GitHub](https://github.com/musale). My other profiles and personal interests are in [Elsewhere]({{< relref "elsewhere/_index.md" >}}).
 
-# Work with me
+## Work with me
 
-I'm available to help you launch your startup, choose your tech stack, develop your application, or review your code.
+I'm available for consultation and part-time engineering work. I can help plan a backend, build an API, review Go code, or work through an infrastructure decision.
 
-Although I specialize in Go, Python and TypeScript, I have over 10 years experience building web applications, APIs and Web services using different languages and technologies. I value friendliness and kindness in interactions, and simplicity and clarity in code, architecture and workflows.
+I work primarily with Go, Python, and TypeScript and have over ten years of experience building web applications and services. I value clear code and architecture, and I like working with people who are kind to each other.
 
-I speak both technology and business. I'm just as happy to talk with you about return on investment as relational databases. In fact, where the two areas meet is where I like to work most.
+Technical choices need to make sense for the business too. I'm happy to discuss costs and priorities alongside databases and deployment.
 
 ## What I can help you with
-**CTO-level planning for your project or startup** — You can hire me to help you define the requirements for your project, pick the right technology stack, and architect the infrastructure. I can help create both high-level roadmaps and detailed technical specifications to turn your vision into reality.
+### Technical planning
 
-**Software development** — I can work with you to write the code for your web applications, APIs and RPC services. I'm proficient with Go and Python/Django.
+Define requirements, choose a stack, and plan the infrastructure. Depending on the project, that might mean a roadmap or a detailed technical specification.
 
-**Code review** — If you'd like an experienced second set of eyes to go over your Go code then I'm happy to help.
+### Software development
+
+Build backend applications, APIs, and RPC services, particularly with Go or Python and Django.
+
+### Code review
+
+Get a second set of eyes on Go code, with attention to correctness, maintainability, and how it behaves in production.
 
 ## How it works
-To start with, we'll schedule a video call to discuss what you want to accomplish and then we can move forward from there. Sessions start at one hour.
+Send a short description of what you're building, where you're stuck, and what help you need. We can arrange a video call to discuss the scope. Sessions start at one hour.
 
-I only take on consultancy work where I'm positive that it's a good fit for both you and me, and I'm confident that I'll be able to provide support in the long term if needed. I'm a native English speaker and wherever you are in the world, I'm happy to work remotely with you.
+I take on work where the fit is right for both of us. I'm happy to collaborate remotely.

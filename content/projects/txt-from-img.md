@@ -3,7 +3,7 @@ title: Testing the Tessaract OCR Project
 slug: txt-from-img
 tags: [mpesa, asyncio, python]
 date: 2019-08-15
-description: "[txt-from-img](txt-from-img/) was a gentle introduction to the tessaract library and how to get text from an image in a lambda function."
+description: "An experiment with Tesseract OCR on AWS Lambda. Send an image to the function and get back its English text, with the deployment setup included."
 ---
 
 ## Motivation

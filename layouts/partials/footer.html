@@ -1,5 +1,12 @@
 <footer class="footer">
   <div class="footer__inner">
+    <nav class="footer-links" aria-label="Footer">
+      <ul>
+        {{ range .Site.Menus.footer }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+      </ul>
+    </nav>
+  </div>
+  <div class="footer__inner">
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">
         <span>{{ replace $.Site.Copyright "{year}" (now.Format "2006") | safeHTML }}</span>

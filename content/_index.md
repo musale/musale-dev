@@ -1,34 +1,40 @@
 ---
 draft: false
-framed: true
+description: Martin Musale's personal blog and portfolio. Backend engineering, cloud platforms, developer tools, and practical AI notes.
 ---
 
-# Hello stranger!
+# Martin Musale
 
-I'm **Martin Musale**, a **backend and platform software engineer** based in Nairobi, Kenya. I currently do consultation work at [Acoruss](https://acoruss.com), where I head the technology wing.
+I'm a backend and platform engineer in Nairobi. I build APIs, developer tools, and cloud services with Go, Python, and TypeScript.
 
-## My work
+My work includes Microsoft Graph SDKs and the platforms behind Microsoft 365 and Copilot. This is where I write about what I'm building and learning. [More about me]({{< relref "about/_index.md" >}}).
 
-Previously, I worked at **Microsoft** in the **M365 Core** team, on the platform behind Microsoft 365 products including SharePoint, Office, and Copilot. I built and managed services that helped people get the right signals and relevant content in their Copilot experiences.
+## Latest articles
 
-I also worked on a **cross-cloud platform** built on [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/what-is-aks). It manages containers in Azure and other clouds, so developers can build and run applications without provisioning the underlying compute themselves.
+{{< latest-articles >}}
 
-Before moving to the platform side, I worked in the **Graph Developer Experiences** team, building Microsoft Graph developer tools and SDKs. I worked on [Kiota](https://learn.microsoft.com/en-us/openapi/kiota/overview), which generates SDKs from OpenAPI specifications, and helped release and maintain the [Microsoft Graph SDKs](https://learn.microsoft.com/en-us/graph/sdks/sdks-overview) for **Python, Go, TypeScript, Java, and C#**.
+Find more in [AI Notes]({{< relref "ai/_index.md" >}}) and [Writing]({{< relref "thoughts/_index.md" >}}).
 
-I worked on the initial SDKs for Copilot endpoints in Python, TypeScript, and C#. Alongside that, I developed scenarios in [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) for using Copilot with Microsoft Graph endpoints, including files.
+## Selected projects
 
-I also worked on [Microsoft Graph Toolkit](https://learn.microsoft.com/en-us/graph/toolkit/overview), delivering a new version of its web components with an updated UI, better performance, and easier integration.
+### [aiompesa]({{< relref "projects/aiompesa.md" >}})
 
-You can see some of the other stuff I work on in [GitHub](https://github.com/musale).
+I built an asynchronous Python client for M-Pesa APIs to explore concurrent I/O and type hints. The library is open source, with usage documentation for integrating mobile payments.
+
+### [Text from images]({{< relref "projects/txt-from-img.md" >}})
+
+I packaged Tesseract OCR for AWS Lambda to extract text from document images. The project includes the deployment setup and a function that returns English text from an image.
+
+### [Hoyt]({{< relref "projects/hoyt.md" >}})
+
+I turned a layout inspired by Ben Hoyt's website into a reusable Hugo theme for my own site. It's an open-source experiment in templates and static site generation.
+
+Browse [all projects]({{< relref "projects/_index.md" >}}) or my code on [GitHub](https://github.com/musale).
 
 ## Away from work
 
-When I'm not working, I like [writing](/thoughts), [reading](https://www.goodreads.com/user/show/13682301-mr-musale), and playing football. I'm also learning **Kenyan Sign Language (KSL)**, though I'm still a beginner.
-
-I maintain [localusr.com](https://localusr.com), where I write about software development and the issues developers (me included) face along the way.
-
-Out of the office, you can also find me traveling and exploring with my friends.
+I read, play football, and travel with friends. I'm also learning Kenyan Sign Language, slowly. [Elsewhere]({{< relref "elsewhere/_index.md" >}}) has the personal lists and links.
 
 ## Work with me
 
-I'm **open for consultation and part-time work**. Reach me at [martinmshale@gmail.com](mailto:martinmshale@gmail.com), or see my [contacts page](/contacts).
+I'm open to consultation and part-time work. [Get in touch]({{< relref "contacts/_index.md" >}}) if you have a project in mind.

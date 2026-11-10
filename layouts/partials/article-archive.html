@@ -1,0 +1,11 @@
+<div class="archive">
+  <div class="index-content archive-intro">
+    {{ .Content }}
+  </div>
+  <section aria-labelledby="archive-title">
+    <h2 id="archive-title" class="archive-title">{{ if eq .Section "projects" }}Project notes{{ else }}Latest articles{{ end }}</h2>
+    {{ $paginator := .Paginate .RegularPages.ByDate.Reverse }}
+    {{ partial "article-list.html" $paginator.Pages }}
+    {{ partial "pagination.html" . }}
+  </section>
+</div>

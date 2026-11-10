@@ -1,0 +1,2 @@
+{{- $articles := where .Site.RegularPages "Section" "in" (slice "ai" "thoughts") -}}
+{{ partial "article-list.html" (first 5 $articles.ByDate.Reverse) }}

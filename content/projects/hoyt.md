@@ -3,7 +3,7 @@ title: HOYT Hugo Theme
 slug: hoyt
 tags: [hoyt, golang, themes]
 date: 2019-10-25
-description: "[Hoyt](hoyt/) is a theme for [Go Hugo](https://gohugo.io) with inspiration from [Ben Hoyt's](https://benhoyt.com/) personal website. It's still a work in ~~very slow~~ progress but it was a very good starting point for me to learn about Go Hugo and how it works as a static site generator."
+description: "A Hugo theme inspired by Ben Hoyt's personal website. I built it for my own site to learn how Hugo templates and static site generation work."
 ---
 
 ## Motivation

@@ -1,0 +1,13 @@
+<header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      {{ partial "logo.html" . }}
+    </div>
+    {{ if len .Site.Menus.main }}
+      <button class="menu-trigger" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-menu">menu</button>
+    {{ end }}
+  </div>
+  {{ if len .Site.Menus.main }}
+    {{ partial "menu.html" . }}
+  {{ end }}
+</header>

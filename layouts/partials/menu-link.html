@@ -1,0 +1,4 @@
+{{- $path := printf "%s/" (strings.TrimSuffix "/" .item.URL) -}}
+<li>
+  <a href="{{ .item.URL }}"{{ if eq .page.RelPermalink $path }} aria-current="page"{{ else if hasPrefix .page.RelPermalink $path }} aria-current="true"{{ end }}>{{ .item.Name }}</a>
+</li>

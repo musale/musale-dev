@@ -16,7 +16,7 @@ enableEmoji = true
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 6
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -78,37 +78,39 @@ enableEmoji = true
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "contacts"
-        name = "Contacts"
-        url = "/contacts"
-		weight = 60
-      [[languages.en.menu.main]]
-        identifier = "thoughts"
-        name = "Thoughts?"
-        url = "/thoughts"
-		weight = 30
-	  [[languages.en.menu.main]]
-        identifier = "cv"
-        name = "CV"
-        url = "/cv"
-		weight = 10
-	  [[languages.en.menu.main]]
-        identifier = "wishlist"
-        name = "Wishlist"
-        url = "/wishlist"
-		weight = 40
-	  [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects"
-		weight = 20
-	  [[languages.en.menu.main]]
-        identifier = "my-list"
-        name = "Bucket List"
-        url = "/my-list"
-		weight = 50
-    [[languages.en.menu.main]]
         identifier = "ai"
         name = "AI Notes"
         url = "/ai"
-    weight = 1
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "writing"
+        name = "Writing"
+        url = "/thoughts"
+        weight = 30
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 40
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contacts"
+        weight = 50
+      [[languages.en.menu.footer]]
+        name = "CV"
+        url = "/cv"
+        weight = 10
+      [[languages.en.menu.footer]]
+        name = "Elsewhere"
+        url = "/elsewhere"
+        weight = 20
+      [[languages.en.menu.footer]]
+        name = "RSS"
+        url = "/index.xml"
+        weight = 30

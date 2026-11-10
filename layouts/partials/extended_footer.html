@@ -1,3 +1,24 @@
+<script>
+  const menuButton = document.querySelector(".menu-trigger");
+  const navigation = document.querySelector(".menu");
+
+  if (menuButton && navigation) {
+    navigation.id = "primary-menu";
+    const syncMenuState = () => {
+      menuButton.setAttribute("aria-expanded", String(!navigation.classList.contains("hidden")));
+    };
+    new MutationObserver(syncMenuState).observe(navigation, { attributes: true, attributeFilter: ["class"] });
+    syncMenuState();
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !menuButton.classList.contains("hidden") && !navigation.classList.contains("hidden")) {
+        navigation.classList.add("hidden");
+        menuButton.focus();
+      }
+    });
+  }
+</script>
+
 {{- if .Store.Get "hasMermaid" -}}
 <style>
   .mermaid {
