@@ -109,6 +109,6 @@ enableEmoji = true
 		weight = 50
     [[languages.en.menu.main]]
         identifier = "ai"
-        name = "AI and Agents"
+        name = "AI Notes"
         url = "/ai"
-    weight = 60
+    weight = 1

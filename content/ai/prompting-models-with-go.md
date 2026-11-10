@@ -1,6 +1,6 @@
 ---
 title: "Prompting a local model with Go: from HTTP to a small harness"
-date: 2026-11-10T10:45:00+03:00
+date: 2026-11-10T00:00:00+03:00
 weight: 30
 draft: false
 description: Run a small model locally, inspect its requests and responses, understand JSONL, and build a Go harness with conversation history and a restricted tool.
@@ -441,7 +441,7 @@ The loop allows at most four model requests and four tool calls per user turn. A
 
 For simplicity, this example refuses to combine `-stream` and `-tools`. A fuller client can support both, but it must assemble streamed tool-call fragments correctly before executing anything.
 
-There is no MCP server here. The harness calls a local Go function directly. MCP would be useful if we wanted a standard interface to tools supplied by other processes. It would not replace the harness's authorization checks. [The agents article]({{< relref "ai/agents.md" >}}) explains that distinction.
+There is no MCP server here. The harness calls a local Go function directly. MCP would be useful if we wanted a standard interface to tools supplied by other processes. It would not replace the harness's authorization checks. [The agents article]({{< relref "ai/ai-agents-and-protocols.md" >}}) explains that distinction.
 
 ## Record what the harness sends
 

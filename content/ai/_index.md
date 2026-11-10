@@ -1,5 +1,5 @@
 ---
-title: AI and Agents
+title: AI Notes
 draft: false
 tags:
   - ai
@@ -9,4 +9,3 @@ tags:
 ---
 
 I read on Artificial Intelligence, it's power and influence in the modern day.
-

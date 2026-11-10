@@ -39,7 +39,7 @@ These terms describe different things:
 
 A *multimodal* model handles more than one type of input or output, such as text and images. Check the actual capabilities: accepting an image does not mean a model can generate one.
 
-A model that writes an explanation does not automatically inspect your repository or execute commands. An application has to provide those capabilities. [AI agents, skills and the protocols between them]({{< relref "ai/agents.md" >}}) covers that application layer.
+A model that writes an explanation does not automatically inspect your repository or execute commands. An application has to provide those capabilities. [AI agents, skills and the protocols between them]({{< relref "ai/ai-agents-and-protocols.md" >}}) covers that application layer.
 
 ## How does a generative model come to exist?
 

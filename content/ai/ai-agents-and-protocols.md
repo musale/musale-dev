@@ -1,5 +1,6 @@
 ---
 title: "AI agents, skills and the protocols between them"
+slug: agents
 date: 2026-11-04T14:25:58+03:00
 weight: 20
 draft: false
