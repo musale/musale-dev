@@ -1,8 +1,8 @@
 ---
 title: "Tool calling without giving the model the keys"
-date: 2026-11-10T00:00:00+03:00
+date: 2026-11-10T13:43:27+03:00
 weight: 40
-draft: true
+draft: false
 description: Build local notes tools in Go, validate every model request, and keep file creation behind separate human approval.
 toc: true
 readingTime: true
@@ -13,8 +13,6 @@ The model asks to read a file. That sounds simple until the path points outside 
 In the [small Go harness]({{< relref "ai/prompting-models-with-go.md" >}}), we let a local model request one restricted file read. I want to extend that example without quietly turning it into a program that can do anything my terminal can do.
 
 We will give a notes assistant three tools: `list_notes`, `read_note`, and `propose_note`. The last one needs some care. It prepares content for review, but cannot save a file. A person approves the exact proposal through a separate application prompt.
-
-*Working draft for review. The example and tests are implemented; this article is not published.*
 
 ## What the model can ask for
 
@@ -344,16 +342,12 @@ For this exercise, I want to be able to point at the code that permits each oper
 
 ## Follow-up articles
 
-These are separate topics, outside this article's local tool example:
+These planned follow-ups are outside this article's local tool example:
 
-- [An authenticated API tool]({{< relref "ai/authenticated-api-tools-with-go.md" >}}): start with a read-only endpoint. Keep credentials in the application, fix the allowed endpoint and method, and distinguish service authentication from the user's permission to access a resource.
-- [Exposing the tools through MCP]({{< relref "ai/notes-tools-over-mcp.md" >}}): reuse the tool behavior and explain what the protocol changes. Connecting through MCP should not silently grant broader permissions.
-- [Restricted command execution]({{< relref "ai/restricted-command-tools.md" >}}): examine isolation, restricted capabilities, and resource limits as a separate exercise. The local notes example does not need arbitrary command execution.
-- [An email-to-GitHub collaboration assistant]({{< relref "ai/email-github-collaboration-assistant.md" >}}): read selected emails, inspect approved repositories, recommend matches privately, and prepare a response draft. Treat incoming email as untrusted input and enforce disclosure rules for private projects. Sending email or inviting collaborators would require separate authorization and approval.
-
-## Before publishing
-
-Review the explanations and the quoted-content approval experience. The approval paths have deterministic tests and scripted-terminal checks, but those are not human reviews. Add a manually reviewed interactive transcript if it would make the approval flow easier to follow.
+- An authenticated API tool: start with a read-only endpoint. Keep credentials in the application, fix the allowed endpoint and method, and distinguish service authentication from the user's permission to access a resource.
+- Exposing the tools through MCP: reuse the tool behavior and explain what the protocol changes. Connecting through MCP should not silently grant broader permissions.
+- Restricted command execution: examine isolation, restricted capabilities, and resource limits as a separate exercise. The local notes example does not need arbitrary command execution.
+- An email-to-GitHub collaboration assistant: read selected emails, inspect approved repositories, recommend matches privately, and prepare a response draft. Treat incoming email as untrusted input and enforce disclosure rules for private projects. Sending email or inviting collaborators would require separate authorization and approval.
 
 [^tools]: [Ollama tool calling](https://docs.ollama.com/capabilities/tool-calling).
 [^json]: [Go `encoding/json` decoding behavior](https://pkg.go.dev/encoding/json#Unmarshal).
