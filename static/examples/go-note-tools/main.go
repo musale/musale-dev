@@ -27,14 +27,6 @@ const (
 		"Never claim that a proposal has been approved or saved."
 )
 
-type ToolCall struct {
-	Type     string `json:"type,omitempty"`
-	Function struct {
-		Name      string          `json:"name"`
-		Arguments json.RawMessage `json:"arguments"`
-	} `json:"function"`
-}
-
 type Message struct {
 	Role      string     `json:"role"`
 	Content   string     `json:"content"`
@@ -178,10 +170,10 @@ func turn(ctx context.Context, client *Client, notes *Notes, model, prompt strin
 }
 
 func approve(ctx context.Context, proposal Proposal, input io.Reader, output io.Writer) (bool, error) {
-	expected := "approve " + proposal.id
+	expected := "approve " + proposal.ID
 	if _, err := fmt.Fprintf(output,
 		"\nApplication review (nothing has been saved):\nPath: %q\nContent (quoted): %q\nType %q to create this file; anything else rejects it:\n",
-		proposal.path, proposal.content, expected); err != nil {
+		proposal.Path, proposal.Content, expected); err != nil {
 		return false, err
 	}
 	type answer struct {
@@ -230,7 +222,7 @@ func run(ctx context.Context) (err error) {
 		return err
 	}
 	defer func() { err = errors.Join(err, root.Close()) }()
-	notes := &Notes{root: root}
+	notes := newNotes(root)
 	client := &Client{
 		URL: "http://127.0.0.1:11434/api/chat",
 		HTTP: &http.Client{Timeout: 2 * time.Minute, CheckRedirect: func(*http.Request, []*http.Request) error {

@@ -30,7 +30,7 @@ func testNotes(t *testing.T) (*Notes, string) {
 		t.Fatal(err)
 	}
 	t.Cleanup(func() { root.Close() })
-	return &Notes{root: root}, dir
+	return newNotes(root), dir
 }
 
 func propose(t *testing.T, notes *Notes) Proposal {
@@ -195,7 +195,7 @@ func TestProposalCreatesOnlyAfterCommitAndCannotBeReplayed(t *testing.T) {
 		t.Fatal(err)
 	}
 	content, err := os.ReadFile(path)
-	if err != nil || string(content) != proposal.content {
+	if err != nil || string(content) != proposal.Content {
 		t.Fatalf("wrong saved content: %q, %v", content, err)
 	}
 	if err := os.Remove(path); err != nil {
@@ -215,11 +215,11 @@ func TestCommitRejectsChangedProposal(t *testing.T) {
 			changed := original
 			switch field {
 			case "id":
-				changed.id = "different"
+				changed.ID = "different"
 			case "path":
-				changed.path = "notes.txt"
+				changed.Path = "notes.txt"
 			case "content":
-				changed.content = "different"
+				changed.Content = "different"
 			}
 			if err := notes.Commit(context.Background(), changed); err == nil {
 				t.Fatal("changed proposal was accepted")
@@ -265,7 +265,7 @@ func TestCommitDoesNotOverwriteNewDestination(t *testing.T) {
 }
 
 func TestApprovalBindsToIDAndQuotesUntrustedContent(t *testing.T) {
-	proposal := Proposal{id: "test-id", path: "draft.txt", content: "text\n\x1b[2J"}
+	proposal := Proposal{ID: "test-id", Path: "draft.txt", Content: "text\n\x1b[2J"}
 	for _, input := range []string{"yes\n", "approve another-id\n", "reject\n", "approve test-id\n"} {
 		var output bytes.Buffer
 		ok, err := approve(context.Background(), proposal, strings.NewReader(input), &output)

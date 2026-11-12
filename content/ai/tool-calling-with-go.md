@@ -79,7 +79,7 @@ go run . -trace "$trace_dir/read.jsonl" \
 
 Skip the clone if you already have this repository. Pulling a model requires a download; inference here uses the local model. You can select another installed model with `-model`.
 
-The fixture describes a demonstration project called Paper Kite. Downloads are available for [main.go](/examples/go-note-tools/main.go), [notes.go](/examples/go-note-tools/notes.go), [go.mod](/examples/go-note-tools/go.mod), [the notes tests](/examples/go-note-tools/notes_test.go), [the loop tests](/examples/go-note-tools/main_test.go), [notes.txt](/examples/go-note-tools/workspace/notes.txt), and [project.txt](/examples/go-note-tools/workspace/project.txt).
+The fixture describes a demonstration project called Paper Kite. Downloads are available for [main.go](/examples/go-note-tools/main.go), [notes.go](/examples/go-note-tools/notes.go), [the shared notes policy](/examples/go-note-tools/notes/notes.go), [go.mod](/examples/go-note-tools/go.mod), [the notes tests](/examples/go-note-tools/notes_test.go), [the loop tests](/examples/go-note-tools/main_test.go), [notes.txt](/examples/go-note-tools/workspace/notes.txt), and [project.txt](/examples/go-note-tools/workspace/project.txt). The CLI's `notes.go` connects it to the shared policy package.
 
 ## A tool description is not a permission check
 
